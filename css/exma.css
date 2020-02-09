@@ -1,3 +1,181 @@
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('ConfigRounded-Medium.woff2') format('woff2'),
+        url('ConfigRounded-Medium.woff') format('woff'),
+        url('ConfigRounded-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Config Rounded Text';
+    src: url('ConfigRounded-Text.woff2') format('woff2'),
+        url('ConfigRounded-Text.woff') format('woff'),
+        url('ConfigRounded-Text.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('ConfigRounded-Light.woff2') format('woff2'),
+        url('ConfigRounded-Light.woff') format('woff'),
+        url('ConfigRounded-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('ConfigRounded-Regular.woff2') format('woff2'),
+        url('ConfigRounded-Regular.woff') format('woff'),
+        url('ConfigRounded-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archer Hairline';
+    src: url('fonts/Archer-Hairline.woff2') format('woff2'),
+        url('fonts/Archer-Hairline.woff') format('woff'),
+        url('fonts/Archer-Hairline.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archer';
+    src: url('fonts/Archer-Bold.woff2') format('woff2'),
+        url('fonts/Archer-Bold.woff') format('woff'),
+        url('fonts/Archer-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archer';
+    src: url('fonts/Archer-Medium.woff2') format('woff2'),
+        url('fonts/Archer-Medium.woff') format('woff'),
+        url('fonts/Archer-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Config Rounded';
+    src: url('fonts/ConfigRounded-Bold.woff2') format('woff2'),
+        url('fonts/ConfigRounded-Bold.woff') format('woff'),
+        url('fonts/ConfigRounded-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-BlackItalic.woff2') format('woff2'),
+        url('fonts/Roboto-BlackItalic.woff') format('woff'),
+        url('fonts/Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-BoldItalic.woff2') format('woff2'),
+        url('fonts/Roboto-BoldItalic.woff') format('woff'),
+        url('fonts/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Medium.woff2') format('woff2'),
+        url('fonts/Roboto-Medium.woff') format('woff'),
+        url('fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Italic.woff2') format('woff2'),
+        url('fonts/Roboto-Italic.woff') format('woff'),
+        url('fonts/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-ThinItalic.woff2') format('woff2'),
+        url('fonts/Roboto-ThinItalic.woff') format('woff'),
+        url('fonts/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.woff2') format('woff2'),
+        url('fonts/Roboto-Bold.woff') format('woff'),
+        url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Light.woff2') format('woff2'),
+        url('fonts/Roboto-Light.woff') format('woff'),
+        url('fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Thin.woff2') format('woff2'),
+        url('fonts/Roboto-Thin.woff') format('woff'),
+        url('fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-MediumItalic.woff2') format('woff2'),
+        url('fonts/Roboto-MediumItalic.woff') format('woff'),
+        url('fonts/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-LightItalic.woff2') format('woff2'),
+        url('fonts/Roboto-LightItalic.woff') format('woff'),
+        url('fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff'),
+        url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Black.woff2') format('woff2'),
+        url('fonts/Roboto-Black.woff') format('woff'),
+        url('fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
 .logoBanner{
 	width: 550px;
     position: absolute;
@@ -23,6 +201,14 @@
 	top: -13px;
     position: relative;
     font-size: 12px;
+    font-family: 'Roboto';
+	font-weight:bold;
+	font-style:normal;
+}
+.timerBanner h3{
+    font-family: 'Roboto';
+	font-weight: 400;
+    font-style: normal;
 }
 .containerRobot{
 	padding: 0px 100px 250px 100px !important;
@@ -50,21 +236,41 @@
 .containerContentRobot p{
 	font-size: 20px;
 	margin: 25px 10px;
+	font-family: 'Config Rounded';
+	font-weight: normal;
+    font-style: normal;
+
+}
+.containerContentRobot p span{
+	font-size: 30px;
+	font-family: 'Config Rounded';
+	font-weight: bold;
+    font-style: normal;
+
 }
 .colorText1{
 	font-size: 50px;
     color: #1eb9df;
     padding: 5px;
+    font-family: 'Archer';
+	font-weight: bold;
+    font-style: normal;
 }
 .colorText2{
 	font-size: 60px;
     color: #ee5b2e;
     padding: 5px;
+    font-family: 'Archer';
+	font-weight: bold;
+    font-style: normal;
 }
 .colorText3{
 	font-size: 70px;
     color: #e9196f;
     padding: 5px;
+    font-family: 'Archer';
+	font-weight: bold;
+    font-style: normal;
 }
 .colorText4{
 	font-size: 40px;
@@ -76,6 +282,8 @@
     color: #b1268c;
     padding: 5px;
     font-weight: 100;
+    font-family: 'Archer';
+    font-style: normal;
 }
 .btnBrochure{
 	border-color: white;
@@ -87,21 +295,33 @@
     margin: 10px;
     position: relative;
     top: 20px;
+    font-family: 'Config Rounded';
+	font-weight: normal;
+    font-style: normal;
 }
 .titleExperienceMarketing{
 	color: #b1268c;
     text-align: right;
     font-size: 40px;
+    font-family: 'Archer';
+	font-weight: bold;
+    font-style: normal;
 }
 .contentExperienceMarketing{
 	background: #000000bd;
     color: white;
     text-align: left;
     padding: 14px;
+    font-family: 'Config Rounded ';
+	font-weight: normal;
+    font-style: normal;
 }
 .numberExperienceMarketing{
 	font-size: 250px;
     color: #b1268c;
+    font-family: 'Archer';
+	font-weight: medium;
+    font-style: normal;
 }
 .arrowsExperienceMarketing{
 	position: relative;
@@ -109,6 +329,9 @@
     font-size: 70px;
     font-weight: 100;
     color:#b1268c;
+    font-family: 'Archer';
+	font-weight: bold;
+    font-style: normal;
 }
 .containerSpeaker{
 	position: relative;
@@ -120,19 +343,32 @@
 .nameSpeaker{
    font-size: 37px;
    margin: 0;
+   font-family: 'Archer';
+	font-weight: bold;
+    font-style: normal;
 }
 .subititleSpeaker{
 	color: black;
+	font-family: 'Config Rounded ';
+	font-weight: lighter;
+    font-style: normal;
+    color: black;
 }
 .titleSpeaker{
 	font-size: 15px;
     background: white;
     color: #ff5a16;
     width: 300px;
+    font-family: 'Config Rounded ';
+	font-weight: medium;
+    font-style: normal;
 }
 .contentSpeaker{
 	 margin-top: 40px;
     font-size: 14px;
+    font-family: 'Config Rounded ';
+	font-weight: normal;
+    font-style: normal;
 }
 .backgroundContainerSpeaker{
 	background: url(../img/fotSpeaker.jpg) !important;
@@ -148,15 +384,24 @@
 .nameSpeakers{
    font-size: 20px;
    margin: 0;
+   font-family: 'Archer';
+	font-weight: bold;
+    font-style: normal;
 }
 .subititleSpeakers{
 	color: black;
+	font-family: 'Config Rounded ';
+	font-weight: medium;
+    font-style: normal;
 }
 .titleSpeakers{
 	font-size: 12px;
     color: white;
     width: auto;
     padding: 2px;
+    font-family: 'Config Rounded ';
+	font-weight: medium;
+    font-style: normal;
 }
 .containerSpeakersSlope{
 	-webkit-transform: rotate(0deg) !important;
@@ -239,6 +484,12 @@
 
 #mainNav {
     background-color: #000000b8 !important;
+    
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-family: 'Config Rounded' !important;
+	font-weight: medium !important;
+    font-style: normal !important;
 }
 
 
@@ -377,6 +628,13 @@
 	.columnFormContact{
 		padding: 0;
 	}
+	.containerContentRobot p span{
+		font-size: 20px;
+		font-family: 'Config Rounded';
+		font-weight: bold;
+	    font-style: normal;
+	}
+
 
 }
 /*
@@ -463,6 +721,12 @@
 	}
 	.columnFormContact{
 		padding: 0;
+	}
+	.containerContentRobot p span{
+		font-size: 20px;
+		font-family: 'Config Rounded';
+		font-weight: bold;
+	    font-style: normal;
 	}
 
  
