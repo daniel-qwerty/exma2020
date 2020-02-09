@@ -1,0 +1,86 @@
+{
+    "titulo": "Customer Experience",
+    "banner": "Evento-de-Marketing-EXMA.jpg",
+    "videoCentral": "https://www.youtube.com/embed/Uo7RToHSfKs?rel=0",
+    "galeriaFotos": [{
+            "imagen": "/img/gallery/1.jpg"
+        },
+        {
+            "imagen": "/img/gallery/2.jpg"
+        },
+        {
+            "imagen": "/img/gallery/3.jpg"
+        }
+    ],
+    "fondoPackDigital": "pack.jpg",
+    "linkPackDigital": "pack-digital-exma.zip",
+    "sponsors": "sponsor-EXMA-e1557779744623.png",
+    "fondoSponsors": "Sponsors-EXMA-2019.jpg",
+    "fondoFooter": "footer.jpg",
+    "speakers": [{
+            "imagen": "img/portfolio/Luis-Buitrago.png",
+            "nombre": "Luis Buitrago",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        },
+        {
+            "imagen": "img/portfolio/amples-ligiani.png",
+            "nombre": "Amples Ligiani",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        },
+        {
+            "imagen": "img/portfolio/gabriel-vallejo.png",
+            "nombre": "Gabriel Vallejo",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "https://www.yumpu.com/es/embed/view/sLqCJ0IQxGablBU4",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        },
+        {
+            "imagen": "img/portfolio/Paola-Aldaz.png",
+            "nombre": "Paola Aldez",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        },
+        {
+            "imagen": "img/portfolio/carlos-miranda.png",
+            "nombre": "Carlos Miranda",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "https://www.yumpu.com/es/embed/view/30uRtgxwC264qhP1",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        }
+    ]
+}
