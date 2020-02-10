@@ -152,5 +152,47 @@
             "instagram": ""
         }
         
+    ],
+    "sponsors": [
+        {
+            "imagen": "img/sponsors/viva.png",
+            "name":"VIVA"
+        },
+        {
+            "imagen": "img/sponsors/alianza.png",
+            "name":"ALIANZA"
+        },
+        {
+            "imagen": "img/sponsors/eventrid.png",
+            "name":"EVENTRID"
+        },
+        {
+            "imagen": "img/sponsors/extend.png",
+            "name":"EXTEND"
+        },
+        {
+            "imagen": "img/sponsors/jhonOrellana.png",
+            "name":"JHON ORELLANA"
+        },
+        {
+            "imagen": "img/sponsors/mediaVara.png",
+            "name":"MEDIA VARA"
+        },  
+        {
+            "imagen": "img/sponsors/montegroup.png",
+            "name":"MONTE GROUP"
+        },
+        {
+            "imagen": "img/sponsors/multicenter.png",
+            "name":"MULTICNTER"
+        },
+        {
+            "imagen": "img/sponsors/publicity.png",
+            "name":"PUBLICITY"
+        },
+        {
+            "imagen": "img/sponsors/rosaBetana.png",
+            "name":"ROSA BETANA"
+        }
     ]
 }

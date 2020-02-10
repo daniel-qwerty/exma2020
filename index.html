@@ -92,7 +92,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          ><img src="img/logoExma2020.png" style="width: 130px" alt=""
+          ><img src="img/logoExma2020.png" style="height:40px" alt=""
         /></a>
         <button
           class="navbar-toggler navbar-toggler-right"
@@ -188,7 +188,7 @@
           </div>
         </article>
       </div>
-      <div class="se-slope">
+      <div class="se-slope" style="margin-top:-340px">
         <article class="se-content">
           <div style="text-align: center;">
             <p style="line-height: 30pt;">
@@ -201,7 +201,7 @@
         </article>
       </div>
       <div id="experience" class="se-slope" style="background: url(img/fondo3x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
-        <article class="se-content containerRobot">
+        <article class="se-content ">
             <div class="row row-cols-3">
               <div class="col-md-1 col-xs-2" style="text-align: center;">
                 <h1 data-aos="zoom-in" class="arrowsExperienceMarketing" @click="prevSlide"><</h1>
@@ -252,7 +252,14 @@
       <div id="speakers" class="se-slope containerSpeakersSlope" style="background: white">
         <article class="se-content containerSpeakersContent">
           <h1 style="text-align: center; color: #422e83;font-family: 'Archer';font-weight: bold;font-style: normal;">{{this.data.slide6Title}}</h1>
-          <div class="row row-cols-4 paddingGrid" >
+          <div style="text-align: center;">
+             <label class="colorText2 animated pulse">CONOCE</label> 
+             <label class="colorText3 animated pulse2">PRONTO</label>
+             <label class="colorText2 animated pulse3" style="color: #1eb9df">A NUESTROS</label>
+             <label class="colorText3 animated pulse4" style="color: #bdd341">PRÓXIMOS</label>
+             <label class="colorText2 animated pulse5" style="color: #b1268c">SPEAKERS</label>
+          </div>
+          <div class="row row-cols-4 paddingGrid" style="display: none;" >
             <div class="col-sm-3" v-for="(item,i) of this.data.speakers" :key="i">
               <div data-aos="zoom-out" class="containerSpeakers">
                 <a href="">
@@ -273,7 +280,24 @@
       <div class="se-slope" style="background: url(img/sponsorsBackground.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
         <article class="se-content">
           <h1 data-aos="flip-up" style="text-align: center; color: #13377c;font-family: 'Archer';font-weight: bold;font-style: normal;">SPONSORS</h1>
-          <img style="width: 100%" src="img/sponsors.png">
+          <div>
+            <div class="row row-cols-3">
+              <div class="col-md-1 col-xs-2" style="text-align: center;">
+                <h1 data-aos="zoom-in" class="arrowsSponsors" @click="prevSponsor" @mouseover="stopCarusel()"
+          @mouseleave="startCarusel()"><</h1>
+              </div>
+              <div class="col-md-10 col-xs-8" style="text-align: center;">
+                <div>
+                  <img class="logoSponsor" :src="this.data.sponsors[this.slideCountS].imagen">
+                </div> 
+              </div>
+              <div class="col-md-1 col-xs-2" style="text-align: center;">
+                <h1 data-aos="zoom-in" class="arrowsSponsors" @click="nextSponsor" @mouseover="stopCarusel()"
+          @mouseleave="startCarusel()">></h1>
+              </div>
+            </div>
+          </div>
+          
         </article>
       </div>
       <div id="tickets" class="se-slope containerSpeakersSlope" style="background: url(img/fondo4x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
@@ -287,12 +311,12 @@
             </div>
             <div class="col-sm-4">
               <a href="">
-                <img data-aos="fade-down" data-aos-duration="2000" style="width: 100%" src="img/ticket1.png">
+                <img data-aos="fade-down" data-aos-duration="2000" style="width: 100%" src="img/ticket2.png">
               </a>
             </div>
             <div class="col-sm-4">
               <a href="">
-                <img data-aos="fade-left" data-aos-duration="2000" style="width: 100%" src="img/ticket1.png">
+                <img data-aos="fade-left" data-aos-duration="2000" style="width: 100%" src="img/ticket3.png">
               </a>
             </div>
           </div>
