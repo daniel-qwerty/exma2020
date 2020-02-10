@@ -1,35 +1,35 @@
 @font-face {
     font-family: 'Config Rounded';
-    src: url('ConfigRounded-Medium.woff2') format('woff2'),
-        url('ConfigRounded-Medium.woff') format('woff'),
-        url('ConfigRounded-Medium.ttf') format('truetype');
+    src: url('fonts/ConfigRounded-Medium.woff2') format('woff2'),
+        url('fonts/ConfigRounded-Medium.woff') format('woff'),
+        url('fonts/ConfigRounded-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Config Rounded Text';
-    src: url('ConfigRounded-Text.woff2') format('woff2'),
-        url('ConfigRounded-Text.woff') format('woff'),
-        url('ConfigRounded-Text.ttf') format('truetype');
+    src: url('fonts/ConfigRounded-Text.woff2') format('woff2'),
+        url('fonts/ConfigRounded-Text.woff') format('woff'),
+        url('fonts/ConfigRounded-Text.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Config Rounded';
-    src: url('ConfigRounded-Light.woff2') format('woff2'),
-        url('ConfigRounded-Light.woff') format('woff'),
-        url('ConfigRounded-Light.ttf') format('truetype');
+    src: url('fonts/ConfigRounded-Light.woff2') format('woff2'),
+        url('fonts/ConfigRounded-Light.woff') format('woff'),
+        url('fonts/ConfigRounded-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Config Rounded';
-    src: url('ConfigRounded-Regular.woff2') format('woff2'),
-        url('ConfigRounded-Regular.woff') format('woff'),
-        url('ConfigRounded-Regular.ttf') format('truetype');
+    src: url('fonts/ConfigRounded-Regular.woff2') format('woff2'),
+        url('fonts/ConfigRounded-Regular.woff') format('woff'),
+        url('fonts/ConfigRounded-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -178,7 +178,7 @@
 }
 .logoBanner{
     position: absolute;
-    top: 30%;
+    top: 25%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -186,19 +186,19 @@
 }
 
 .logoBanner img {
-    width: 500px;
+    width: 700px;
 }
 .logoBanner h1 {
     font-size: 22px;
 }
 .timerBanner{
-    width: 500px;
+    width: 700px;
     height: 90px;
     margin: auto;
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 25px;
+    bottom: 0px;
     z-index: 1;
     padding: 5px;
 }
@@ -222,6 +222,7 @@
 .imgRobot{
 	top: 130px;
     position: relative;
+    width: 100%;
 }
 .containerContentRobot{
 	position: relative;
@@ -241,7 +242,7 @@
 }
 .containerContentRobot p{
 	font-size: 20px;
-	margin: 25px 10px;
+	margin: 5px 10px;
 	font-family: 'Config Rounded';
 	font-weight: normal;
     font-style: normal;
@@ -528,7 +529,7 @@
 
 #mainNav {
     background-color: #000000b8 !important;
-    height: 80px;
+    height: 60px;
     
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -619,10 +620,10 @@
 
 @keyframes wobble {
   0% {transform: translateX(0%);}
-  15% {transform: translateX(-25%) rotate(-5deg);}
+  15% {transform: translateX(-25%) rotate(-2.4deg);}
   30% {transform: translateX(20%) rotate(3deg);}
   45% {transform: translateX(-15%) rotate(-3deg);}
-  60% {transform: translateX(10%) rotate(2deg);}
+  60% {transform: translateX(10%) rotate(2.4deg);}
   75% {transform: translateX(-5%) rotate(-1deg);}
   100% {transform: translateX(0%);}
 }
@@ -679,6 +680,7 @@
 	#mainNav {
     	padding-top: 5px !important;
     	padding-bottom: 5px !important;
+        height: 80px;
 	}
     .containerContentRobot {
         position: relative;
@@ -700,6 +702,9 @@
     .columnFormContact {
         padding: 0 0 0 60px;
     }
+    .se-content {
+        width: auto;
+    }
 }
 
 /*
@@ -711,7 +716,11 @@
 	#mainNav {
     	padding-top: 5px !important;
     	padding-bottom: 5px !important;
+        height: 80px;
 	}
+    .se-content {
+        width: auto;
+    }
 }
 
 /*
@@ -742,6 +751,9 @@
 	.containerContentRobot p{
 		font-size: 17px;
 	}
+    .containerRobot {
+        padding: 0px 100px 365px 100px !important;
+    }
 	.colorText1{
 		font-size: 30px;
 	}
@@ -838,6 +850,15 @@
     .timerBanner h3{
         font-size: 30px;
     }
+    .logoBanner{
+        top: 40%;
+    }
+    .se-content {
+        width: auto;
+    }
+    #mainNav {
+        height: 80px;
+    }
 
 
 }
@@ -868,6 +889,9 @@
 	.containerContentRobot p{
 		font-size: 17px;
 	}
+    .containerRobot {
+        padding: 0px 100px 365px 100px !important;
+    }
 	.colorText1{
 		font-size: 30px;
 	}
@@ -962,6 +986,15 @@
     }
     .timerBanner h3{
         font-size: 30px;
+    }
+    .logoBanner{
+        top: 40%;
+    }
+    .se-content {
+        width: auto;
+    }
+    #mainNav {
+        height: 80px;
     }
 
  

@@ -55,20 +55,23 @@ const app = new Vue({
             
         },
         nextSponsor(){
+            console.log(this.slideCountS);
             if(this.slideCountS < this.data.sponsors.length-1){
                 this.slideCountS++;
-                console.log(this.slideCountS);
+               
             }
             
         },
         prevSponsor(){
+            console.log(this.slideCountS);
             if(this.slideCountS >= 1){
                 this.slideCountS--;
-                console.log(this.slideCountS);
+              
             }
             
         },
         autoNext() {
+            
           if (this.sw === 0) {
             if (this.slideCountS < this.data.sponsors.length-1) {
               this.slideCountS++;
