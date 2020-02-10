@@ -70,9 +70,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/exma.css" />
+     
     <link
       href="http://fonts.googleapis.com/css?family=Bitter"
       rel="stylesheet"
@@ -135,27 +136,34 @@
 
     <!-- Header -->
 
-    <section id="inicio" class="se-container" style="padding: 0">
+    <section id="inicio" class="se-container" style="padding: 0; ">
        <header class="masthead" style="background: url(img/fondo1x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover; height: 100vh" >
         <div class="">
-          <img class="logoBanner" src="img/exma2020banner.png">
-          <div class="timerBanner" style="background: url(img/timer.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
+          <div class="logoBanner" >
+            <img src="img/exma2020banner.png">
+            <h1 class="">FEXPOCRUZ - 28 DE MAYO</h1>
+            <a style="background: url(img/timer.jpg);background-repeat: no-repeat;" data-aos="zoom-in" class="btnBrochure"  href="#tickets">LLEVAME AL FUTURO</a>
+          </div>
+          
+          <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="timerBanner" style="background: url(img/timer.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
             <div class="row row-cols-4">
               <div class="col" style="text-align: center;">
                 <h3 id="dias">12</h3>
-                <span>DIAS</span>
+                <label>DIAS</label>
               </div>
               <div class="col" style="text-align: center;">
                 <h3 id="horas">12</h3>
-                <span>HORAS</span>
+                <label>HORAS</label>
               </div>
               <div class="col" style="text-align: center;">
                 <h3 id="minutos">12</h3>
-                <span>MIN</span>
+                <label>MIN</label>
               </div>
               <div class="col" style="text-align: center;">
                 <h3 id="segundos">12</h3>
-                <span>SEG</span>
+                <label>SEG</label>
               </div>
             </div>
           </div>
@@ -167,13 +175,13 @@
         <article class="se-content containerRobot">
           <div class="row">
             <div class="col-sm-6">
-              <img class="imgRobot" src="img/robot.png">
+              <img data-aos="fade-right" data-aos-offset="200"data-aos-easing="ease-in-sine" class="imgRobot" src="img/robot.png">
             </div>
             <div class="col-sm-6">
               <div class="containerContentRobot">
-                <img style="width: 100%" src="img/logoExmaNormal.png">
-                <p v-html="this.data.aboutExma"></p>
-                <a class="btnBrochure"  href="">{{this.data.btnAboutExma}}</a>
+                <img data-aos="flip-left" style="width: 100%" src="img/logoExmaNormal.png">
+                <p data-aos="flip-up"  v-html="this.data.aboutExma"></p>
+                <a data-aos="zoom-in" class="btnBrochure"  href="">{{this.data.btnAboutExma}}</a>
               </div>
               
             </div>
@@ -184,11 +192,11 @@
         <article class="se-content">
           <div style="text-align: center;">
             <p style="line-height: 30pt;">
-              <span class="colorText1">{{this.data.slide3Text1}}</span> <br>
-              <span class="colorText2">{{this.data.slide3Text2}}</span> <span class="colorText3">{{this.data.slide3Text3}}</span> <br>
-              <span class="colorText4">{{this.data.slide3Text4}}</span> <span class="colorText5">{{this.data.slide3Text5}}</span>
+              <label class="colorText1 animated pulse">{{this.data.slide3Text1}}</label> <br>
+              <label class="colorText2 animated pulse2">{{this.data.slide3Text2}}</label> <label class="colorText3 animated pulse3">{{this.data.slide3Text3}}</label> <br>
+              <label class="colorText4 animated pulse4">{{this.data.slide3Text4}}</label> <label class="colorText5 animated pulse5">{{this.data.slide3Text5}}</label>
             </p>
-            <a class="btnBrochure"  href="">{{this.data.btnBrochure}}</a>
+            <a data-aos="zoom-in" class="btnBrochure"  href="">{{this.data.btnBrochure}}</a>
           </div>
         </article>
       </div>
@@ -196,42 +204,42 @@
         <article class="se-content containerRobot">
             <div class="row row-cols-3">
               <div class="col-md-1 col-xs-2" style="text-align: center;">
-                <h1 class="arrowsExperienceMarketing" @click="prevSlide"><</h1>
+                <h1 data-aos="zoom-in" class="arrowsExperienceMarketing" @click="prevSlide"><</h1>
               </div>
               <div class="col-md-10 col-xs-8" style="text-align: center;">
                 <div>
                   <div class="row row-cols-2">
-                    <div class="col" style="text-align: center;">
+                    <div class="col-sm-6" style="text-align: center;">
                        <div>
-                        <h1 class="numberExperienceMarketing">{{this.data.slidesExperience[this.slideCount].number}}</h1>
+                        <h1 data-aos="fade-right" class="numberExperienceMarketing">{{this.data.slidesExperience[this.slideCount].number}}</h1>
                       </div>
                     </div>
-                    <div class="col" style="text-align: center;">
+                    <div class="col-sm-6" style="text-align: center;">
                       <div>
-                        <h1 class="titleExperienceMarketing">{{this.data.slidesExperience[this.slideCount].title}}</h1>
-                        <p class="contentExperienceMarketing">{{this.data.slidesExperience[this.slideCount].content}}</p>
+                        <h1 data-aos="fade-up" class="titleExperienceMarketing">{{this.data.slidesExperience[this.slideCount].title}}</h1>
+                        <p data-aos="fade-left" class="contentExperienceMarketing" v-html="this.data.slidesExperience[this.slideCount].content"></p>
                       </div>
                     </div>
                   </div>
                 </div> 
               </div>
               <div class="col-md-1 col-xs-2" style="text-align: center;">
-                <h1 class="arrowsExperienceMarketing" @click="nextSlide">></h1>
+                <h1 data-aos="zoom-in" class="arrowsExperienceMarketing" @click="nextSlide">></h1>
               </div>
             </div>
         </article>
       </div>
    
-      <div class="se-slope backgroundContainerSpeaker" style="">
+      <!--<div class="se-slope backgroundContainerSpeaker" style="">
         <article class="se-content ">
           <div class="row">
             <div class="col-sm-6">
               
             </div>
             <div class="col-sm-6">
-              <div class="containerSpeaker">
+              <div class="containerSpeaker" data-aos="fade-down-left">
                 <h4 class="nameSpeaker" v-html="this.data.nameSpeaker"></h4>
-                <span class="subititleSpeaker">{{this.data.subtitleSpeaker}}</span>
+                <label class="subititleSpeaker">{{this.data.subtitleSpeaker}}</label>
                 <h5 class="titleSpeaker">{{this.data.titleSpeaker}}</h5>
 
                 <p class="contentSpeaker" v-html="this.data.contentSpeaker"></p>
@@ -240,22 +248,22 @@
             </div>
           </div>
         </article>
-      </div>
+      </div>-->
       <div id="speakers" class="se-slope containerSpeakersSlope" style="background: white">
         <article class="se-content containerSpeakersContent">
           <h1 style="text-align: center; color: #422e83;font-family: 'Archer';font-weight: bold;font-style: normal;">{{this.data.slide6Title}}</h1>
-          <div class="row row-cols-4" style="margin: 0 40px;">
+          <div class="row row-cols-4 paddingGrid" >
             <div class="col-sm-3" v-for="(item,i) of this.data.speakers" :key="i">
-              <div class="containerSpeakers">
+              <div data-aos="zoom-out" class="containerSpeakers">
                 <a href="">
-                  <img class="imageSpeakers" :src="item.imagen">
+                  <img  class="imageSpeakers" :src="item.imagen">
                 </a>
-                <div style="padding: 0 25px;">
+                <div class="contentSpeakers" >
                   <a href="">
                     <h4 class="nameSpeakers" style="color: orange" v-html="item.nombre"></h4>
                   </a>
-                  <span class="subtitleSpeakers">{{item.cargo}}</span> <br>
-                  <span class="titleSpeakers" style="background: orange">{{item.tema}}</span>
+                  <label class="subititleSpeakers">{{item.cargo}}</label> <br>
+                  <label class="titleSpeakers" style="background: orange">{{item.tema}}</label>
                 </div>
               </div>
             </div>
@@ -264,40 +272,40 @@
       </div>
       <div class="se-slope" style="background: url(img/sponsorsBackground.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
         <article class="se-content">
-          <h1 style="text-align: center; color: #13377c;font-family: 'Archer';font-weight: bold;font-style: normal;">SPONSORS</h1>
+          <h1 data-aos="flip-up" style="text-align: center; color: #13377c;font-family: 'Archer';font-weight: bold;font-style: normal;">SPONSORS</h1>
           <img style="width: 100%" src="img/sponsors.png">
         </article>
       </div>
       <div id="tickets" class="se-slope containerSpeakersSlope" style="background: url(img/fondo4x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
         <article class="se-content containerSpeakersContent">
-          <h1 style="text-align: center; margin-bottom: 50px; color: white;font-family: 'Archer';font-weight: bold;font-style: normal;">TICKETS</h1>
-          <div class="row row-cols-3" style="margin: 0 40px;">
+          <h1 data-aos="flip-up" style="text-align: center; margin-bottom: 50px; color: white;font-family: 'Archer';font-weight: bold;font-style: normal;">TICKETS</h1>
+          <div class="row row-cols-3 paddingGrid" >
             <div class="col-sm-4">
               <a href="">
-                <img style="width: 100%" src="img/ticket1.png">
+                <img data-aos="fade-right" data-aos-duration="2000" style="width: 100%" src="img/ticket1.png">
               </a>
             </div>
             <div class="col-sm-4">
               <a href="">
-                <img style="width: 100%" src="img/ticket1.png">
+                <img data-aos="fade-down" data-aos-duration="2000" style="width: 100%" src="img/ticket1.png">
               </a>
             </div>
             <div class="col-sm-4">
               <a href="">
-                <img style="width: 100%" src="img/ticket1.png">
+                <img data-aos="fade-left" data-aos-duration="2000" style="width: 100%" src="img/ticket1.png">
               </a>
             </div>
           </div>
         </article>
       </div>
-      <div id="contacto" class="se-slope" style="background: url(img/fondo5x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
-        <article class="se-content" style="    padding: 130px 100px 120px 100px;">
+      <div id="contacto" class="se-slope" style="background: url(img/fondo5x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover; transform: rotate(0deg);">
+        <article class="se-content" style="transform: rotate(0deg);padding: 130px 100px 120px 100px;">
           <div class="row row-cols-2" style="margin: 0 40px;">
             <div class="col-sm-6">
                 <img style="width: 100%" src="img/footer.png">
             </div>
             <div class="col-sm-6 columnFormContact">
-             <h2 style="text-align: center;color: white; margin: 50px 0; font-size: 25px;font-family: 'Archer';font-weight: bold;font-style: normal;">ESCRÍBENOS</h2>
+             <h2 data-aos="flip-up" style="text-align: center;color: white; margin: 50px 0; font-size: 25px;font-family: 'Archer';font-weight: bold;font-style: normal;">ESCRÍBENOS</h2>
                 <div style="width: 100%">
                   <label class="footerLabel">Nombre:</label>
                   <input class="footerInput" type="text" v-model="nombre" name="nombre">
@@ -308,14 +316,13 @@
                 </div>
                 <div style="width: 100%">
                   <label class="footerLabel">Email:</label>
-                  {{this.email}}
                   <input class="footerInput" type="text" v-model="email" name="email">
                 </div>
                 <div style="width: 100%">
                   <label style="vertical-align: top" class="footerLabel" >Mensaje:</label>
                   <textarea class="footerTextArea" v-model="mensaje" name="mensaje" ></textarea>
                 </div>
-              <button class="btnEnviarFooter" @click="sendContact()">ENVIAR</button>
+              <button data-aos="zoom-in" class="btnEnviarFooter" @click="sendContact()">ENVIAR</button>
               <div v-if="showMessage" class="mensajeFormContact">
                 <p>{{message}}</p>
               </div>
@@ -807,26 +814,31 @@
     <!-- Modal 11 -->
 
     <!-- Bootstrap core JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/modernizr.custom.34978.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    
 
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+   
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/home.js"></script>
+    
+
+    <script>
+      AOS.init();
+    </script>
 
     <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+    var countDownDate = new Date("May 28, 2020 08:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -859,7 +871,25 @@
         document.getElementById("segundos").innerHTML = 0;
       }
     }, 1000);
+
+
 </script>
+<script>
+$(function() {
+    $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    });
+});
+</script>
+
+
 <!-- Load Facebook SDK for JavaScript -->
       <div id="fb-root"></div>
       <script>
@@ -882,8 +912,8 @@
       <div class="fb-customerchat"
         attribution=setup_tool
         page_id="114544805371486"
-  logged_in_greeting="¡Bienvenido a EXMA! ¿Cómo podemos ayudarte hoy?"
-  logged_out_greeting="¡Bienvenido a EXMA! ¿Cómo podemos ayudarte hoy?">
+        logged_in_greeting="¡Bienvenido a EXMA! ¿Cómo podemos ayudarte hoy?"
+        logged_out_greeting="¡Bienvenido a EXMA! ¿Cómo podemos ayudarte hoy?">
       </div>
   </body>
 </html>

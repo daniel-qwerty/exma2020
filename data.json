@@ -1,6 +1,6 @@
 {
     "titulo": "MAKE THE FUTURE YOURS",
-    "aboutExma": "La plataforma de marketingmás grande e influyente de<span>Latinoamérica</span>",
+    "aboutExma": "Somos una plataforma de conocimiento de alto nivel más relevante de habla hispana, con presencia en 8 países, 30 eventos en Latinoamérica y más de 35.000 asistentes al año. Un movimiento global que está dando de qué hablar en el mundo entero por la calidad inigualable de sus speakers, contenido de valor y grandes experiencias.",
     "btnAboutExma": "MÁS SOBRE EXMA",
     "slide3Text1":"TECNOLOGÍA",
     "slide3Text2":"CONSUMIDOR",
@@ -10,19 +10,24 @@
     "btnBrochure": "DESCARGAR BROCHURE",
     "slidesExperience": [
         {
-            "title": "EXPERIENCE MARKETING",
+            "title": "Why: EXMA 2020",
             "number": "1",
-            "content": "dadasdkjasdjkakjsdkjasdga fas fkjagskgfgakgfkjag ajgka sf a doashda sohaodhoiashd o ashdoahiuhuhd aushd aushd auhsud asdhashd"
+            "content": "<p>Qué necesitamos para construir el futuro que queremos?En un mundo de posibilidades infinitas y de grandes transformaciones que impactan la forma en la que vivimos, trabajamos, consumimos, pagamos, aprendemos, movemos y finalmente conectamos, se hace cada vez más difícil anticiparnos a los próximos cambios. </p> <p>En EXMA conocerás a profundidad lo que debes saber de las 5 fuerzas que van a revolucionar todos los negocios y que necesitas para hacer tuyo el futuro.</p>"
         },
         {
-            "title": "EXPERIENCE MARKETING2",
+            "title": "What: 5 Power Tracks",
             "number": "2",
-            "content": "2dadasdkjasdjkakjsdkjasdga fas fkjagskgfgakgfkjag ajgka sf a doashda sohaodhoiashd o ashdoahiuhuhd aushd aushd auhsud asdhashd"
+            "content": "<p>Descubre los  próximos cambios y el futuro de:</p> <ul><li>Consumidores: The AI Generation. Interacciones, tiempo y conectividad.</li> <li>Conciencia: Modelos de negocios sustentables y centrados en el cliente.</li><li>Entornos y ciudades: Movilidad, monitoreo en tiempo real, optimización de espacios y nuevos hábitos de consumo.</li><li>Tecnología: Transformación digital e innovación. Cómo aprovechar la automatización, los algoritmos y tracking.</li><li>Transacciones: Nuevo concepto de valor, donde la moneda física está teniendo una metamorfosis y las experiencias y relación cobran aún mayor relevancia.</li></ul>"
         },
         {
-            "title": "EXPERIENCE MARKETING3",
+            "title": "Who: Si llegaste hasta aquí, EXMA 2020 es para ti.",
             "number": "3",
-            "content": "3dadasdkjasdjkakjsdkjasdga fas fkjagskgfgakgfkjag ajgka sf a doashda sohaodhoiashd o ashdoahiuhuhd aushd aushd auhsud asdhashd"
+            "content": "Para líderes visionarios que no solo impulsan la transformación, sino buscan cómo crear el futuro desde la innovación."
+        },
+        {
+            "title": "How: Entertainment OF THE FUTURE",
+            "number": "4",
+            "content": "Además de nuestro inigualable escenario, una Intelligence Host llamada EMA donde la AI cobra vida, una muestra comercial donde el futuro va a suceder, un Food&Bar para conectar ideas con personas, tendrás más contenido, inspiración para llevar todas tus ideas a la acción y Learning Talks donde conocerás la tecnología y proyectos que están transformando el país."
         }
     ],
     "nameSpeaker":"MIKE <br> WALSHK</h4>",
