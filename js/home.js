@@ -14,7 +14,7 @@ const app = new Vue({
         sendContact(){
             if(this.nombre != null && this.apellido != null && this.email != null && this.mensaje != null){
                 axios
-                .post('http://localhost:8080/api-rest/public/api/clientes/nuevo', {
+                .post('https://exma.com.bo/public/api/clientes/nuevo', {
                   nombre: this.nombre,
                   apellido: this.apellido,
                   email: this.email,
