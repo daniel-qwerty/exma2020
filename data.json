@@ -1,25 +1,54 @@
 {
-    "titulo": "Customer Experience",
-    "banner": "Evento-de-Marketing-EXMA.jpg",
-    "videoCentral": "https://www.youtube.com/embed/Uo7RToHSfKs?rel=0",
-    "galeriaFotos": [{
-            "imagen": "/img/gallery/1.jpg"
+    "titulo": "MAKE THE FUTURE YOURS",
+    "aboutExma": "La plataforma de marketingmás grande e influyente de<span>Latinoamérica</span>",
+    "btnAboutExma": "MÁS SOBRE EXMA",
+    "slide3Text1":"TECNOLOGÍA",
+    "slide3Text2":"CONSUMIDOR",
+    "slide3Text3":"CONCIENCIA",
+    "slide3Text4":"TRANSACIONES",
+    "slide3Text5":"ENTORNOS Y CIUDADES",
+    "btnBrochure": "DESCARGAR BROCHURE",
+    "slidesExperience": [
+        {
+            "title": "EXPERIENCE MARKETING",
+            "number": "1",
+            "content": "dadasdkjasdjkakjsdkjasdga fas fkjagskgfgakgfkjag ajgka sf a doashda sohaodhoiashd o ashdoahiuhuhd aushd aushd auhsud asdhashd"
         },
         {
-            "imagen": "/img/gallery/2.jpg"
+            "title": "EXPERIENCE MARKETING2",
+            "number": "2",
+            "content": "2dadasdkjasdjkakjsdkjasdga fas fkjagskgfgakgfkjag ajgka sf a doashda sohaodhoiashd o ashdoahiuhuhd aushd aushd auhsud asdhashd"
         },
         {
-            "imagen": "/img/gallery/3.jpg"
+            "title": "EXPERIENCE MARKETING3",
+            "number": "3",
+            "content": "3dadasdkjasdjkakjsdkjasdga fas fkjagskgfgakgfkjag ajgka sf a doashda sohaodhoiashd o ashdoahiuhuhd aushd aushd auhsud asdhashd"
         }
     ],
-    "fondoPackDigital": "pack.jpg",
-    "linkPackDigital": "pack-digital-exma.zip",
-    "sponsors": "sponsor-EXMA-e1557779744623.png",
-    "fondoSponsors": "Sponsors-EXMA-2019.jpg",
-    "fondoFooter": "footer.jpg",
-    "speakers": [{
-            "imagen": "img/portfolio/Luis-Buitrago.png",
-            "nombre": "Luis Buitrago",
+    "nameSpeaker":"MIKE <br> WALSHK</h4>",
+    "subtitleSpeaker":"FUTURISTA",
+    "titleSpeaker":"THE ALGORITMIC LEADER",
+    "contentSpeaker":"Adoiashdo aso oadh aihdais odha oshdoiashdoi asodho ohsod ahdoa d doadua sdasgod agsdgasdasogud asoudgoasgdouasg dougasodugasgd",
+    "slide6Title":"SPEAKERES",
+    "speakers": [
+        {
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
+            "tema": "THE ALGORITMIC LEADER",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        },
+        {
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
             "tema": "",
             "resumen": "",
             "video": "",
@@ -31,8 +60,9 @@
             "instagram": ""
         },
         {
-            "imagen": "img/portfolio/amples-ligiani.png",
-            "nombre": "Amples Ligiani",
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
             "tema": "",
             "resumen": "",
             "video": "",
@@ -44,21 +74,9 @@
             "instagram": ""
         },
         {
-            "imagen": "img/portfolio/gabriel-vallejo.png",
-            "nombre": "Gabriel Vallejo",
-            "tema": "",
-            "resumen": "",
-            "video": "",
-            "graphRecording": "",
-            "presentacion": "https://www.yumpu.com/es/embed/view/sLqCJ0IQxGablBU4",
-            "facebook": "",
-            "twitter": "",
-            "linkedin": "",
-            "instagram": ""
-        },
-        {
-            "imagen": "img/portfolio/Paola-Aldaz.png",
-            "nombre": "Paola Aldez",
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
             "tema": "",
             "resumen": "",
             "video": "",
@@ -70,17 +88,64 @@
             "instagram": ""
         },
         {
-            "imagen": "img/portfolio/carlos-miranda.png",
-            "nombre": "Carlos Miranda",
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
             "tema": "",
             "resumen": "",
             "video": "",
             "graphRecording": "",
-            "presentacion": "https://www.yumpu.com/es/embed/view/30uRtgxwC264qhP1",
+            "presentacion": "",
             "facebook": "",
             "twitter": "",
             "linkedin": "",
             "instagram": ""
         }
+        ,
+        {
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        }
+        ,
+        {
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        }
+        ,
+        {
+            "imagen": "img/speaker.png",
+            "cargo":"FUTURISTA",
+            "nombre": "MIKE <br> WALSHK",
+            "tema": "",
+            "resumen": "",
+            "video": "",
+            "graphRecording": "",
+            "presentacion": "",
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "instagram": ""
+        }
+        
     ]
 }

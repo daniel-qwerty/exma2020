@@ -332,6 +332,7 @@
     font-family: 'Archer';
 	font-weight: bold;
     font-style: normal;
+    cursor: pointer;
 }
 .containerSpeaker{
 	position: relative;
@@ -454,6 +455,21 @@
     display: block;
     width: 100%;
     text-align: right;
+    background: transparent;
+    box-shadow: none;
+}
+.btnEnviarFooter:hover{
+    color: white;
+    padding: 0 16px;
+    font-size: 18px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    display: block;
+    width: 100%;
+    text-align: right;
+    background: transparent;
+    box-shadow: none;
 }
 .footerCopy{
 	position: relative;
@@ -490,6 +506,18 @@
 	font-family: 'Config Rounded' !important;
 	font-weight: medium !important;
     font-style: normal !important;
+}
+.mensajeFormContact{
+    top: 40px;
+    width: 100%;
+    position: relative;
+
+}
+.mensajeFormContact p {
+    padding: 5px;
+    text-align: center;
+    background: #000000b5;
+    color: #ee5b2e;
 }
 
 
