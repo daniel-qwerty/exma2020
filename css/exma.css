@@ -349,8 +349,8 @@
 }
 .arrowsSponsors{
     position: relative;
-    top: 50%;
-    font-size: 130px;
+    top: 0;
+    font-size: 250px;
     font-weight: 100;
     color:#13377ce3;
     font-family: 'Archer Hairline';
@@ -360,7 +360,7 @@
     text-shadow: 2px 2px 4px #000000;
 }
 .logoSponsor{
-    width: 500px;
+    width: 250px;
 }
 .containerSpeaker{
 	position: relative;
