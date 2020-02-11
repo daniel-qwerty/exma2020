@@ -522,6 +522,8 @@
 }
 
 
+
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #e9196f !important;
     font-weight: bold !important;
@@ -682,7 +684,7 @@
 }
 
 .contentDataNumbers{
-    padding: 100px 100px 167px;
+    padding: 100px 100px 167px !important;
 }
 
 
@@ -919,10 +921,10 @@
         height: 80px;
     }
     .contentDataNumbers{
-        padding: 50px 100px 50px;
+        padding: 50px 100px 50px !important;
     }
     .sponsorsContent{
-       padding: 100px 100px 250px;
+       padding: 100px 100px 250px !important;
     }
 
 }
@@ -1061,10 +1063,10 @@
         height: 80px;
     }
     .contentDataNumbers{
-        padding: 50px 100px 50px;
+        padding: 50px 100px 50px !important;
     }
     .sponsorsContent{
-       padding: 100px 100px 250px;
+       padding: 100px 100px 250px !important;
     }
 
  
