@@ -178,7 +178,7 @@
 }
 .logoBanner{
     position: absolute;
-    top: 25%;
+    top: 14%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -186,7 +186,7 @@
 }
 
 .logoBanner img {
-    width: 700px;
+    width: 550px;
 }
 .logoBanner h1 {
     font-size: 22px;
@@ -198,7 +198,7 @@
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 0px;
+    bottom: 50px;
     z-index: 1;
     padding: 5px;
 }
@@ -309,38 +309,43 @@
 .titleExperienceMarketing{
 	color: #b1268c;
     text-align: right;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Archer';
-	font-weight: bold;
+    font-weight: bold;
     font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 28pt;
 }
 .contentExperienceMarketing{
 	background: #000000bd;
     color: white;
     text-align: left;
     padding: 14px;
-    font-weight: 17px;
-    font-family: 'Config Rounded ';
-	font-weight: normal;
+    font-family: 'Config Rounded' !important;
+    font-weight: normal;
     font-style: normal;
+    height: 290px;
+    overflow: scroll;
 }
 .numberExperienceMarketing{
-	font-size: 250px;
+	font-size: 300px;
     color: #b1268c;
     font-family: 'Archer';
 	font-weight: medium;
     font-style: normal;
+    text-shadow: 2px 2px 4px #000000;
 }
 .arrowsExperienceMarketing{
 	position: relative;
     top: 50%;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 100;
-    color:#b1268c;
-    font-family: 'Archer';
-	font-weight: bold;
+    color: #b1268c;
+    font-family: 'Archer Hairline';
+    font-weight: 100;
     font-style: normal;
     cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
 }
 .arrowsSponsors{
     position: relative;
@@ -348,10 +353,11 @@
     font-size: 70px;
     font-weight: 100;
     color:#13377ce3;
-    font-family: 'Archer';
-    font-weight: bold;
+    font-family: 'Archer Hairline';
+    font-weight: 100;
     font-style: normal;
     cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
 }
 .logoSponsor{
     width: 500px;
@@ -431,19 +437,19 @@
     font-style: normal;
 }
 .containerSpeakersSlope{
-	-webkit-transform: rotate(0deg) !important;
-    -moz-transform: rotate(0deg) !important;
-    -o-transform: rotate(0deg) !important;
-    -ms-transform: rotate(0deg) !important;
-    transform: rotate(0deg) !important;
+	-webkit-transform: rotate(-2.4deg) !important;
+    -moz-transform: rotate(-2.4deg) !important;
+    -o-transform: rotate(-2.4deg) !important;
+    -ms-transform: rotate(-2.4deg) !important;
+    transform: rotate(-2.4deg) !important;
 }
 .containerSpeakersContent{
-	-webkit-transform: rotate(0deg) !important;
-    -moz-transform: rotate(0deg) !important;
-    -o-transform: rotate(0deg) !important;
-    -ms-transform: rotate(0deg) !important;
-    transform: rotate(0deg) !important;
-    padding: 150px 100px 250px 100px !important;
+	-webkit-transform: rotate(2.4deg) !important;
+    -moz-transform: rotate(2.4deg) !important;
+    -o-transform: rotate(2.4deg) !important;
+    -ms-transform: rotate(2.4deg) !important;
+    transform: rotate(2.4deg) !important;
+    padding: 100px 100px 100px 100px !important;
 }
 .footerInput{
 	height: 30px !important;
@@ -641,6 +647,15 @@
     margin: 0 40px;
 }
 
+.containerTicketssContent {
+    -webkit-transform: rotate(2.4deg) !important;
+    -moz-transform: rotate(2.4deg) !important;
+    -o-transform: rotate(2.4deg) !important;
+    -ms-transform: rotate(2.4deg) !important;
+    transform: rotate(2.4deg) !important;
+    padding: 100px 100px 190px 100px !important;
+}
+
 
 
 
@@ -773,7 +788,7 @@
 		font-size: 100px;
 	}
 	.titleExperienceMarketing{
-    	font-size: 30px;
+    	font-size: 40px;
 	}
 	.arrowsExperienceMarketing{
     	font-size: 35px;
@@ -839,7 +854,7 @@
         margin: 0 ;
     }
     .containerSpeakersContent{
-        padding: 150px 40px 250px 40px !important;
+        padding: 100px 40px 100px 40px !important;
     }
     .contentSpeakers{
         padding: 0 50px;
@@ -851,7 +866,7 @@
         font-size: 30px;
     }
     .logoBanner{
-        top: 40%;
+        top: 20%;
     }
     .se-content {
         width: auto;
@@ -911,7 +926,7 @@
 		font-size: 100px;
 	}
 	.titleExperienceMarketing{
-    	font-size: 30px;
+    	font-size: 40px;
 	}
 	.arrowsExperienceMarketing{
     	font-size: 35px;
@@ -988,7 +1003,7 @@
         font-size: 30px;
     }
     .logoBanner{
-        top: 40%;
+        top: 20%;
     }
     .se-content {
         width: auto;
