@@ -926,6 +926,10 @@
     .sponsorsContent{
        padding: 100px 100px 250px !important;
     }
+    .contentExperienceMarketing {
+        overflow: scroll;
+        font-size: 15px;
+    }
 
 }
 /*
@@ -1067,6 +1071,10 @@
     }
     .sponsorsContent{
        padding: 100px 100px 250px !important;
+    }
+    .contentExperienceMarketing {
+        overflow: scroll;
+        font-size: 15px;
     }
 
  
