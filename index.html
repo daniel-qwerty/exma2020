@@ -139,7 +139,7 @@
             <h1 class=""><img style="width: 150px" src="img/fecha.png"></h1>
             <img src="img/exma2020banner.png">
             <h1 class="">
-            <a style="background: url(img/timer.jpg);background-repeat: no-repeat;" data-aos="zoom-in" class="btnBrochure"  href="#tickets">LLEVAME AL FUTURO</a>
+            <a style="border: none;background: rgb(246, 90, 24);padding: 10px;" data-aos="zoom-in" class="btnBrochure" href="#tickets">LLEVAME AL FUTURO</a>
             <h1/>
           </div>
           
@@ -167,7 +167,7 @@
       </header>
       
 
-      <div class="se-slope" style="background: url(img/fondo2x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
+      <div class="se-slope" style="background: url(img/fondoAzul.png);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
         <article class="se-content containerRobot">
           <div class="row">
             <div class="col-sm-6">
@@ -198,33 +198,38 @@
       </div>
       <div id="experience" class="se-slope" style="background: url(img/fondo3x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover; padding: 60px 100px 110px 100px;">
         <article class="se-content" style="padding: 150px 10px 250px 10px;">
-            <div class="row row-cols-3">
-              <div class="col-md-1 col-xs-2" style="text-align: center;">
-                <h1 data-aos="zoom-in" class="arrowsExperienceMarketing" @click="prevSlide"><</h1>
-              </div>
-              <div class="col-md-10 col-xs-8" style="text-align: center;">
+            <div class="row ">
+             
+              <div class="col-md-12 col-xs-12" style="text-align: center;">
                 <div>
                   <div class="row row-cols-2">
                     <div class="col-sm-6" style="text-align: center;">
                        <div>
-                        <h1 data-aos="fade-right" class="numberExperienceMarketing">{{this.data.slidesExperience[this.slideCount].number}}</h1>
-                      </div>
-                    </div>
-                    <div class="col-sm-6" style="text-align: center;">
-                      <div>
                         <h1 data-aos="fade-up" class="titleExperienceMarketing">{{this.data.slidesExperience[this.slideCount].title}}</h1>
                         <p data-aos="fade-left" class="contentExperienceMarketing" v-html="this.data.slidesExperience[this.slideCount].content"></p>
                       </div>
                     </div>
+                    <div class="col-sm-6" style="text-align: center;">
+                      
+                    </div>
+                  </div>
+                  <div class="containerDots">
+                    <a v-for="(item,i) of this.data.slidesExperience" :key="i"  >
+                      <i class="fas fa-circle dot" @click="slideCount = i"></i>
+                    </a>
                   </div>
                 </div> 
-              </div>
-              <div class="col-md-1 col-xs-2" style="text-align: center;">
-                <h1 data-aos="zoom-in" class="arrowsExperienceMarketing" @click="nextSlide">></h1>
               </div>
             </div>
         </article>
       </div>
+      <div class="se-slope" style="background: url(img/fondo8x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
+        <article class="se-content contentDataNumbers" style="padding: 130px 100px 167px 100px;">
+          <img src="img/dataNumbers.png">
+          
+        </article>
+      </div>
+
    
       <!--<div class="se-slope backgroundContainerSpeaker" style="">
         <article class="se-content ">
@@ -274,7 +279,7 @@
         </article>
       </div>-->
       <div class="se-slope" style="background: url(img/sponsorsBackground.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
-        <article class="se-content" style="padding: 130px 100px 167px 100px;">
+        <article class="se-content sponsorsContent">
           <h1 data-aos="flip-up" style="text-align: center; color: #13377c;font-family: 'Archer';font-weight: bold;font-style: normal;">SPONSORS</h1>
           <div>
             <div class="row row-cols-3">

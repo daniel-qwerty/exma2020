@@ -186,7 +186,7 @@
 }
 
 .logoBanner img {
-    width: 600px;
+    width: 800px;
 }
 .logoBanner h1 {
     font-size: 22px;
@@ -317,15 +317,16 @@
     line-height: 28pt;
 }
 .contentExperienceMarketing{
-	background: #000000bd;
+
     color: white;
-    text-align: left;
+    text-align: justify;
     padding: 14px;
     font-family: 'Config Rounded' !important;
     font-weight: normal;
     font-style: normal;
-    height: 290px;
-    overflow: scroll;
+    height: 250px;
+    overflow: hidden ;
+    
 }
 .numberExperienceMarketing{
 	font-size: 320px;
@@ -516,6 +517,10 @@
 	padding: 0 5px;
 }
 
+.sponsorsContent{
+   padding: 100px 100px 186px;
+}
+
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #e9196f !important;
@@ -662,7 +667,23 @@
     padding: 100px 100px 190px 100px !important;
 }
 
+.dot{
+    color: white;
+    margin: 0 5px;
+    font-size: 20px;
+}
 
+.dot:hover{
+    color: #890397;
+}
+.containerDots{
+    position: relative;
+    top: 70px;
+}
+
+.contentDataNumbers{
+    padding: 100px 100px 167px;
+}
 
 
 
@@ -702,6 +723,9 @@
     	padding-top: 5px !important;
     	padding-bottom: 5px !important;
 	}
+    .logoBanner img {
+        width: 600px;
+    }
 }
 
 /*
@@ -738,6 +762,7 @@
     .se-content {
         width: auto;
     }
+    
 }
 
 /*
@@ -754,6 +779,7 @@
     .se-content {
         width: auto;
     }
+
 }
 
 /*
@@ -892,7 +918,12 @@
     #mainNav {
         height: 80px;
     }
-
+    .contentDataNumbers{
+        padding: 50px 100px 50px;
+    }
+    .sponsorsContent{
+       padding: 100px 100px 250px;
+    }
 
 }
 /*
@@ -1028,6 +1059,12 @@
     }
     #mainNav {
         height: 80px;
+    }
+    .contentDataNumbers{
+        padding: 50px 100px 50px;
+    }
+    .sponsorsContent{
+       padding: 100px 100px 250px;
     }
 
  

@@ -47,6 +47,18 @@ const app = new Vue({
             }
             
         },
+        nextSlide2(){
+            if(this.slideCount < this.data.slidesExperience.length-1){
+                this.slideCount++;
+                console.log(this.slideCount);
+            }else{
+               if(this.slideCount >= 1){
+                this.slideCount--;
+                console.log(this.slideCount);
+            } 
+            }
+            
+        },
         prevSlide(){
             if(this.slideCount >= 1){
                 this.slideCount--;
