@@ -186,7 +186,7 @@
 }
 
 .logoBanner img {
-    width: 550px;
+    width: 600px;
 }
 .logoBanner h1 {
     font-size: 22px;
@@ -328,17 +328,17 @@
     overflow: scroll;
 }
 .numberExperienceMarketing{
-	font-size: 300px;
+	font-size: 320px;
     color: #b1268c;
     font-family: 'Archer';
-	font-weight: medium;
+    font-weight: 100;
     font-style: normal;
     text-shadow: 2px 2px 4px #000000;
 }
 .arrowsExperienceMarketing{
 	position: relative;
     top: 50%;
-    font-size: 80px;
+    font-size: 130px;
     font-weight: 100;
     color: #b1268c;
     font-family: 'Archer Hairline';
@@ -350,7 +350,7 @@
 .arrowsSponsors{
     position: relative;
     top: 50%;
-    font-size: 70px;
+    font-size: 130px;
     font-weight: 100;
     color:#13377ce3;
     font-family: 'Archer Hairline';
@@ -513,12 +513,13 @@
     font-weight: 100;
 }
 .columnFormContact{
-	padding: 0 45px;
+	padding: 0 5px;
 }
 
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #e9196f !important;
+    font-weight: bold !important;
 }
 
 #mainNav.navbar-shrink {
@@ -540,7 +541,7 @@
 }
 #mainNav .navbar-nav .nav-item .nav-link {
 	font-family: 'Config Rounded' !important;
-	font-weight: medium !important;
+	font-weight: 100 !important;
     font-style: normal !important;
 }
 .mensajeFormContact{
@@ -554,6 +555,11 @@
     text-align: center;
     background: #000000b5;
     color: #ee5b2e;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:active {
+    color: #e9196f !important;
+    font-weight: bold !important;
 }
 
 
@@ -672,6 +678,18 @@
     	padding-top: 5px !important;
     	padding-bottom: 5px !important;
 	}
+
+    .timerBanner {
+        width: 700px;
+        height: 90px;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 130px;
+        z-index: 1;
+        padding: 5px;
+    }
 }
 
 /*
