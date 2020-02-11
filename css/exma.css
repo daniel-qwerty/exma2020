@@ -687,6 +687,44 @@
     padding: 100px 100px 167px !important;
 }
 
+.contentPowerContent{
+    padding: 150px 100px 250px !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.icons{
+    width: 150px;
+    display: block;
+
+}
+.titleIcons{
+    color: white;
+    font-size: 14px;
+    font-family: 'Archer';
+    text-transform: uppercase;
+}
+.descriptionIcons{
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    width: 80%;
+    background: #0000009e;
+    border-radius: 12px;
+    font-family: 'Config Rounded';
+}
+
 
 
 
@@ -930,6 +968,20 @@
         overflow: scroll;
         font-size: 15px;
     }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .icons{
+        width: 70px;
+    }
+    .titleIcons{
+        font-size: 10px;
+    }
+    .descriptionIcons{
+        font-size: 14px;
+    }
 
 }
 /*
@@ -1075,6 +1127,19 @@
     .contentExperienceMarketing {
         overflow: scroll;
         font-size: 15px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .icons{
+        width: 70px;
+    }
+    .titleIcons{
+        font-size: 10px;
+    }
+    .descriptionIcons{
+        font-size: 14px;
     }
 
  

@@ -12,7 +12,9 @@ const app = new Vue({
         slideCountS:0,
         sw: 0,
         next: null,
-        prev: null
+        prev: null,
+        powerContentIndex:0,
+        showDecriptionPower:false
     },
     methods: {
         sendContact(){
@@ -107,6 +109,29 @@ const app = new Vue({
         },
         startCarusel() {
           this.next = setInterval(() => this.autoNext(), 6000);
+        },
+        showIcon1(){
+            this.powerContentIndex = 0;
+            this.showDecriptionPower = true;
+        },
+        showIcon2(){
+            this.powerContentIndex = 1;
+            this.showDecriptionPower = true;
+        },
+        showIcon3(){
+            this.powerContentIndex = 2;
+            this.showDecriptionPower = true;
+        },
+        showIcon4(){
+            this.powerContentIndex = 3;
+            this.showDecriptionPower = true;
+        },
+        showIcon5(){
+            this.powerContentIndex = 4;
+            this.showDecriptionPower = true;
+        },
+        closeDescription(){
+            this.showDecriptionPower = false;
         }
     },
     mounted() { 

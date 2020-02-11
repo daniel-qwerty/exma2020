@@ -188,6 +188,27 @@
         {
             "imagen": "img/sponsors/rosaBetana.png",
             "name":"ROSA BETANA"
+        },
+        {
+            "imagen": "img/sponsors/goWork.png",
+            "name":"GOWORK"
+        }
+    ],
+    "powerContent": [
+        {
+            "description":"Consumidores: The AI Generation, Interacciones, tiempo y conectividad."
+        },
+        {
+            "description":"Entornos y ciudades: Movilidad, monitoreo en tiempo real, optimización de espacios, nuevos hábitos de consumo."
+        },
+        {
+            "description":"Transacciones: Nuevo concepto de valor, donde la moneda fisíca esta"
+        },
+        {
+            "description":"Tecnología: Transformación digital e innovación. Cómo aprovechar la automatización, los algoritmos y tracking."
+        },
+        {
+            "description":"Conciencia: Modelos de negocios sustentables y centrados en el cliente."
         }
     ]
 }

@@ -184,7 +184,7 @@
           </div>
         </article>
       </div>
-      <div class="se-slope" style="margin-top:-340px">
+      <!--<div class="se-slope" style="margin-top:-340px">
         <article class="se-content" style="padding: 116px 100px 177px 100px;">
           <div style="text-align: center;">
             <p style="line-height: 30pt;">
@@ -195,7 +195,7 @@
             <a data-aos="zoom-in" class="btnBrochure" style="display:none;"  href="">{{this.data.btnBrochure}}</a>
           </div>
         </article>
-      </div>
+      </div>-->
       <div id="experience" class="se-slope" style="background: url(img/fondo3x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover; padding: 60px 100px 110px 100px;">
         <article class="se-content" style="padding: 150px 10px 250px 10px;">
             <div class="row ">
@@ -226,6 +226,47 @@
       <div class="se-slope" style="background: url(img/fondo8x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
         <article class="se-content contentDataNumbers">
           <img style="width: 100%" src="img/dataNumbers.png">
+          
+        </article>
+      </div>
+      <div class="se-slope" style="background: url(img/fondo9x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
+        <article class="se-content contentPowerContent">
+          <h1 data-aos="flip-up" style="text-align: center; color: #ffffff;font-family: 'Archer';font-weight: bold;font-style: normal;">POWER CONTENT</h1>
+          <div class="grid-container">
+            <div class="grid-item">
+              <a @click="showIcon1()" >
+                <img data-aos="zoom-in" class="icons" src="img/icono1.png">
+                <label class="titleIcons">Conciencia</label>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a @click="showIcon2()">
+                <img data-aos="zoom-in" class="icons" src="img/icono2.png">
+                <label class="titleIcons">Entornos & Ciudades</label>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a @click="showIcon3()">
+                <img data-aos="zoom-in" class="icons" src="img/icono3.png">
+                <label class="titleIcons">Transacciones</label>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a @click="showIcon4()">
+                <img data-aos="zoom-in" class="icons" src="img/icono4.png">
+                <label class="titleIcons">Tecnología</label>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a @click="showIcon5()">
+                <img data-aos="zoom-in" class="icons" src="img/icono5.png">
+                <label class="titleIcons">Consumidor</label>
+              </a>
+            </div>
+          </div>
+          <div @click="closeDescription()" v-if="this.showDecriptionPower" class="descriptionIcons">
+                <p>{{this.data.powerContent[this.powerContentIndex].description}}</p>
+          </div>
           
         </article>
       </div>
