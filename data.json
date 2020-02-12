@@ -25,7 +25,7 @@
             "content": "<p>Además de nuestro inigualable escenario, una Smart Host llamada EMA donde la AI cobra vida, una muestra comercial donde el futuro va a suceder, espacios para conectar ideas con personas; tendrás más contenido, inspiración para llevar todas tus ideas a la acción y un nuevo formato de Learning Talks donde conocerás la tecnología y proyectos que van a transformar el país.</p>"
         }
     ],
-    "nameSpeaker":"MIKE <br> WALSHK</h4>",
+    "nameSpeaker":"MIKE <br> WALSH</h4>",
     "subtitleSpeaker":"FUTURISTA",
     "titleSpeaker":"THE ALGORITMIC LEADER",
     "contentSpeaker":"Adoiashdo aso oadh aihdais odha oshdoiashdoi asodho ohsod ahdoa d doadua sdasgod agsdgasdasogud asoudgoasgdouasg dougasodugasgd",
@@ -43,13 +43,14 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"naranja"
         },
         {
             "imagen": "img/speaker.png",
             "cargo":"FUTURISTA",
             "nombre": "MIKE <br> WALSHK",
-            "tema": "",
+            "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
             "graphRecording": "",
@@ -57,13 +58,14 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"lila"
         },
         {
             "imagen": "img/speaker.png",
             "cargo":"FUTURISTA",
             "nombre": "MIKE <br> WALSHK",
-            "tema": "",
+            "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
             "graphRecording": "",
@@ -71,13 +73,14 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"rosado"
         },
         {
             "imagen": "img/speaker.png",
             "cargo":"FUTURISTA",
             "nombre": "MIKE <br> WALSHK",
-            "tema": "",
+            "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
             "graphRecording": "",
@@ -85,13 +88,14 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"verde"
         },
         {
             "imagen": "img/speaker.png",
             "cargo":"FUTURISTA",
             "nombre": "MIKE <br> WALSHK",
-            "tema": "",
+            "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
             "graphRecording": "",
@@ -99,14 +103,15 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"naranja"
         }
         ,
         {
             "imagen": "img/speaker.png",
             "cargo":"FUTURISTA",
             "nombre": "MIKE <br> WALSHK",
-            "tema": "",
+            "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
             "graphRecording": "",
@@ -114,14 +119,15 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"lila"
         }
         ,
         {
             "imagen": "img/speaker.png",
             "cargo":"FUTURISTA",
             "nombre": "MIKE <br> WALSHK",
-            "tema": "",
+            "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
             "graphRecording": "",
@@ -129,14 +135,15 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"rosado"
         }
         ,
         {
             "imagen": "img/speaker.png",
             "cargo":"FUTURISTA",
             "nombre": "MIKE <br> WALSHK",
-            "tema": "",
+            "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
             "graphRecording": "",
@@ -144,7 +151,8 @@
             "facebook": "",
             "twitter": "",
             "linkedin": "",
-            "instagram": ""
+            "instagram": "",
+            "color":"verde"
         }
         
     ],

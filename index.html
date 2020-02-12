@@ -114,7 +114,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#experience">EXPERIENCE MARKETING</a>
             </li>
-           
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#speakers">SPEAKERS</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#tickets"
                 >TICKETS</a
@@ -272,7 +274,7 @@
       </div>
 
    
-      <!--<div class="se-slope backgroundContainerSpeaker" style="">
+      <div class="se-slope backgroundContainerSpeaker" style="">
         <article class="se-content ">
           <div class="row">
             <div class="col-sm-6">
@@ -290,18 +292,11 @@
             </div>
           </div>
         </article>
-      </div>-->
-      <!--<div id="speakers" class="se-slope containerSpeakersSlope" style="background: white">
+      </div>
+      <div id="speakers" class="se-slope containerSpeakersSlope" style="background: white">
         <article class="se-content containerSpeakersContent">
           <h1 style="text-align: center; color: #422e83;font-family: 'Archer';font-weight: bold;font-style: normal;">{{this.data.slide6Title}}</h1>
-          <div style="text-align: center;">
-             <label class="colorText2 animated pulse">CONOCE</label> 
-             <label class="colorText3 animated pulse2">PRONTO</label>
-             <label class="colorText2 animated pulse3" style="color: #1eb9df">A NUESTROS</label>
-             <label class="colorText3 animated pulse4" style="color: #bdd341">PRÓXIMOS</label>
-             <label class="colorText2 animated pulse5" style="color: #b1268c">SPEAKERS</label>
-          </div>
-          <div class="row row-cols-4 paddingGrid" style="display: none;" >
+          <div class="row row-cols-4 paddingGrid" >
             <div class="col-sm-3" v-for="(item,i) of this.data.speakers" :key="i">
               <div data-aos="zoom-out" class="containerSpeakers">
                 <a href="">
@@ -309,19 +304,25 @@
                 </a>
                 <div class="contentSpeakers" >
                   <a href="">
-                    <h4 class="nameSpeakers" style="color: orange" v-html="item.nombre"></h4>
+                    <h4 v-if="item.color == 'naranja'" class="nameSpeakers" style="color: #F15A22" v-html="item.nombre"></h4>
+                    <h4 v-if="item.color == 'lila'" class="nameSpeakers" style="color: #992389" v-html="item.nombre"></h4>
+                    <h4 v-if="item.color == 'rosado'" class="nameSpeakers" style="color: #ca203c" v-html="item.nombre"></h4>
+                    <h4 v-if="item.color == 'verde'" class="nameSpeakers" style="color: #c3d444" v-html="item.nombre"></h4>
                   </a>
-                  <label class="subititleSpeakers">{{item.cargo}}</label> <br>
-                  <label class="titleSpeakers" style="background: orange">{{item.tema}}</label>
+                  <label  class="subititleSpeakers">{{item.cargo}}</label> <br>
+                  <label v-if="item.color == 'naranja'" class="titleSpeakers" style="background: #F15A22">{{item.tema}}</label>
+                  <label v-if="item.color == 'lila'" class="titleSpeakers" style="background: #992389">{{item.tema}}</label>
+                  <label v-if="item.color == 'rosado'" class="titleSpeakers" style="background: #ca203c">{{item.tema}}</label>
+                  <label v-if="item.color == 'verde'"  class="titleSpeakers" style="background: #c3d444">{{item.tema}}</label>
                 </div>
               </div>
             </div>
         
         </article>
-      </div>-->
-      <div class="se-slope" style="background: url(img/sponsorsBackground.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
-        <article class="se-content sponsorsContent">
-          <h1 data-aos="flip-up" style="text-align: center; color: #13377c;font-family: 'Archer';font-weight: bold;font-style: normal;">SPONSORS</h1>
+      </div>
+      <div class="se-slope" style="background: url(img/fondo2x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
+        <article class="se-content sponsorsContent" style="text-align: center;">
+          <h1 data-aos="flip-up" style="text-align: center; color: #ffffff;font-family: 'Archer';font-weight: bold;font-style: normal;">SPONSORS</h1>
           <div>
             <div class="row row-cols-3">
               <div class="col-md-1 col-xs-2" style="text-align: center;">
@@ -338,7 +339,9 @@
           @mouseleave="startCarusel()">></h1>
               </div>
             </div>
+
           </div>
+           <a data-aos="zoom-in" class="btnBrochure" style="top: 3px"  href="">{{this.data.btnBrochure}}</a>
           
         </article>
       </div>

@@ -353,12 +353,12 @@
     top: 0;
     font-size: 250px;
     font-weight: 100;
-    color:#13377ce3;
+    color:#ffffff;
     font-family: 'Archer Hairline';
     font-weight: 100;
     font-style: normal;
     cursor: pointer;
-    text-shadow: 2px 2px 4px #000000;
+    
 }
 .logoSponsor{
     width: 250px;
@@ -367,11 +367,11 @@
 	position: relative;
     top: 0;
     left: 50px;
-    width: 450px;
+    width: 600px;
     color: white;
 }
 .nameSpeaker{
-   font-size: 37px;
+   font-size: 108px;
    margin: 0;
    font-family: 'Archer';
 	font-weight: bold;
@@ -379,26 +379,29 @@
 }
 .subititleSpeaker{
 	color: black;
-	font-family: 'Config Rounded ';
+	font-family: 'Config Rounded';
 	font-weight: lighter;
     font-style: normal;
     color: black;
+    font-size: 33px;
 }
 .titleSpeaker{
 	font-size: 15px;
     background: white;
     color: #ff5a16;
-    width: 300px;
-    font-family: 'Config Rounded ';
+    font-family: 'Config Rounded';
 	font-weight: medium;
     font-style: normal;
+    padding: 0 5px;
+    font-size: 40px;
 }
 .contentSpeaker{
 	 margin-top: 40px;
-    font-size: 14px;
-    font-family: 'Config Rounded ';
+    font-size: 25px;
+    font-family: 'Config Rounded';
 	font-weight: normal;
     font-style: normal;
+    margin-bottom: 40px;
 }
 .backgroundContainerSpeaker{
 	background: url(../img/fotSpeaker.jpg) !important;
@@ -450,7 +453,7 @@
     -o-transform: rotate(2.4deg) !important;
     -ms-transform: rotate(2.4deg) !important;
     transform: rotate(2.4deg) !important;
-    padding: 100px 100px 100px 100px !important;
+    padding: 100px 0 100px 0 !important;
 }
 .footerInput{
 	height: 30px !important;
@@ -766,6 +769,21 @@
     .logoBanner img {
         width: 600px;
     }
+     .nameSpeaker {
+        font-size: 98px;
+    }
+    .subititleSpeaker {
+        font-size: 25px;
+    }
+    .titleSpeaker {
+        font-size: 30px;
+    }
+    .contentSpeaker {
+        font-size: 20px;
+    }
+    .containerSpeaker{
+        width: 400px;
+    }
 }
 
 /*
@@ -802,6 +820,7 @@
     .se-content {
         width: auto;
     }
+    
     
 }
 
@@ -925,14 +944,9 @@
 
     }
     .arrowsSponsors{
-        background: #13377ce3;
-        color: white;
-        position: relative;
-        top: 0px;
-        font-size: 35px;
-        width: 50%;
-        margin: auto;
-
+        background: transparent;
+        color: #ffffff;
+        font-size: 45px;
     }
     .paddingGrid{
         margin: 0 ;
@@ -981,6 +995,35 @@
     }
     .descriptionIcons{
         font-size: 14px;
+    }
+    .nameSpeaker {
+        font-size: 50px;
+    }
+    .subititleSpeaker {
+        font-size: 20px;
+    }
+    .titleSpeaker {
+        font-size: 20px;
+    }
+    .contentSpeaker {
+        font-size: 18px;
+    }
+    .containerSpeaker {
+        left: 30px;
+    }
+    .containerSpeakersSlope{
+        -webkit-transform: rotate(-1.4deg) !important;
+        -moz-transform: rotate(-1.4deg) !important;
+        -o-transform: rotate(-1.4deg) !important;
+        -ms-transform: rotate(-1.4deg) !important;
+        transform: rotate(-1.4deg) !important;
+    }
+    .containerSpeakersContent{
+        -webkit-transform: rotate(1.4deg) !important;
+        -moz-transform: rotate(1.4deg) !important;
+        -o-transform: rotate(1.4deg) !important;
+        -ms-transform: rotate(1.4deg) !important;
+        transform: rotate(1.4deg) !important;
     }
 
 }
@@ -1086,19 +1129,15 @@
 
     }
     .arrowsSponsors{
-        background: #13377ce3;
-        color: white;
-        position: relative;
-        top: 0px;
-        font-size: 35px;
-        width: 50%;
-        margin: auto;
+        background: transparent;
+        color: #ffffff;
+        font-size: 45px;
     }
     .paddingGrid{
         margin: 0 ;
     }
     .containerSpeakersContent{
-        padding: 150px 40px 250px 40px !important;
+        padding: 150px 40px 150px 40px !important;
     }
     .contentSpeakers{
         padding: 0 50px;
@@ -1140,6 +1179,35 @@
     }
     .descriptionIcons{
         font-size: 14px;
+    }
+    .nameSpeaker {
+        font-size: 50px;
+    }
+    .subititleSpeaker {
+        font-size: 20px;
+    }
+    .titleSpeaker {
+        font-size: 20px;
+    }
+    .contentSpeaker {
+        font-size: 18px;
+    }
+    .containerSpeaker {
+        left: 30px;
+    }
+    .containerSpeakersSlope{
+        -webkit-transform: rotate(-1.4deg) !important;
+        -moz-transform: rotate(-1.4deg) !important;
+        -o-transform: rotate(-1.4deg) !important;
+        -ms-transform: rotate(-1.4deg) !important;
+        transform: rotate(-1.4deg) !important;
+    }
+    .containerSpeakersContent{
+        -webkit-transform: rotate(1.4deg) !important;
+        -moz-transform: rotate(1.4deg) !important;
+        -o-transform: rotate(1.4deg) !important;
+        -ms-transform: rotate(1.4deg) !important;
+        transform: rotate(1.4deg) !important;
     }
 
  
