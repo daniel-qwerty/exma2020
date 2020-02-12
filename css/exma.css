@@ -870,7 +870,7 @@
 		font-size: 17px;
 	}
     .containerRobot {
-        padding: 0px 100px 365px 100px !important;
+        padding: 70px 100px 365px 100px !important;
     }
 	.colorText1{
 		font-size: 30px;
@@ -979,7 +979,7 @@
        padding: 100px 100px 250px !important;
     }
     .contentExperienceMarketing {
-        overflow: scroll;
+        height: auto;
         font-size: 15px;
     }
     
@@ -987,8 +987,11 @@
       display: grid;
       grid-template-columns: auto auto auto;
     }
+    .grid-item {
+        padding: 5px;
+    }
     .icons{
-        width: 70px;
+        width: 90px;
     }
     .titleIcons{
         font-size: 10px;
@@ -1055,7 +1058,7 @@
 		font-size: 17px;
 	}
     .containerRobot {
-        padding: 0px 100px 365px 100px !important;
+        padding: 70px 100px 365px 100px !important;
     }
 	.colorText1{
 		font-size: 30px;
@@ -1164,15 +1167,18 @@
        padding: 100px 100px 250px !important;
     }
     .contentExperienceMarketing {
-        overflow: scroll;
+        height: auto;
         font-size: 15px;
     }
     .grid-container {
       display: grid;
       grid-template-columns: auto auto auto;
     }
+    .grid-item {
+        padding: 5px;
+    }
     .icons{
-        width: 70px;
+        width: 90px;
     }
     .titleIcons{
         font-size: 10px;
