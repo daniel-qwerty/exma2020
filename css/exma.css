@@ -539,9 +539,8 @@
 }
 
 #mainNav .navbar-toggler {
-    background-color: #e9196f !important;
-    background: url(../img/timer.jpg);background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #ffffff !important;
+    color: black;
 }
 
 #mainNav {
@@ -570,6 +569,16 @@
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:active {
     color: #e9196f !important;
     font-weight: bold !important;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #000000b3;
 }
 
 
