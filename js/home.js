@@ -19,17 +19,46 @@ const app = new Vue({
     methods: {
         sendContact(){
             if(this.nombre != null && this.apellido != null && this.email != null && this.mensaje != null){
-                axios
-                const headers = {
-                  "Content-Type": "application/json"
-                };
-                .post('https://hooks.zapier.com/hooks/catch/6703116/odety42/', {
+
+                try {
+                    const data = JSON.stringify({
+                      nombre: this.nombre,
+                      apellido: this.apellido,
+                      email: this.email,
+                      mensaje: this.mensaje,
+                      web: "2020"
+                    });
+                    const headers = {
+                      "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+                    };
+                    let datos = axios
+                      .post(
+                        "https://hooks.zapier.com/hooks/catch/6708777/odco8gz/",
+                        data,
+                        headers
+                      )
+                      .then(response => {
+                        console.log(response);
+                        this.showMessage = true;
+                        this.message = "Su mensaje fue enviado";
+                      })
+                      .catch(error => {
+                        console.log(error);
+                        this.showMessage = true;
+                        this.message = error;
+                      });
+                  } catch (error) {
+                    console.log(error);
+                  }
+               /* axios
+                
+                .post('https://hooks.zapier.com/hooks/catch/6703116/odety42/'{
                   nombre: this.nombre,
                   apellido: this.apellido,
                   email: this.email,
                   mensaje: this.mensaje,
                   web: "2020"
-                }, headers)
+                }
                 .then(res => {
                     this.showMessage = true;
                     this.message = "Su mensaje fue enviado";
@@ -38,7 +67,7 @@ const app = new Vue({
                   console.log(error);
                   this.showMessage = true;
                   this.message = error;
-                });
+                });*/
             } else {
                 this.showMessage = true;
                 this.message = "Todos los campos del formulario son obligatoiros";
