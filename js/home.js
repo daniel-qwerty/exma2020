@@ -20,13 +20,16 @@ const app = new Vue({
         sendContact(){
             if(this.nombre != null && this.apellido != null && this.email != null && this.mensaje != null){
                 axios
+                const headers = {
+                  "Content-Type": "application/json"
+                };
                 .post('https://hooks.zapier.com/hooks/catch/6703116/odety42/', {
                   nombre: this.nombre,
                   apellido: this.apellido,
                   email: this.email,
                   mensaje: this.mensaje,
                   web: "2020"
-                })
+                }, headers)
                 .then(res => {
                     this.showMessage = true;
                     this.message = "Su mensaje fue enviado";
