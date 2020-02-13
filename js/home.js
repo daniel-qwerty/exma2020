@@ -20,7 +20,7 @@ const app = new Vue({
         sendContact(){
             if(this.nombre != null && this.apellido != null && this.email != null && this.mensaje != null){
                 axios
-                .post('https://exma.com.bo/public/api/clientes/nuevo', {
+                .post('https://hooks.zapier.com/hooks/catch/6703116/odety42/', {
                   nombre: this.nombre,
                   apellido: this.apellido,
                   email: this.email,
