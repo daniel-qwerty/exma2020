@@ -299,24 +299,18 @@
       <div id="speakers" class="se-slope containerSpeakersSlope" style="background: white">
         <article class="se-content containerSpeakersContent">
           <h1 style="text-align: center; color: #422e83;font-family: 'Archer';font-weight: bold;font-style: normal;">{{this.data.slide6Title}}</h1>
-          <div class="row row-cols-4 paddingGrid" >
-            <div class="col-sm-3" v-for="(item,i) of this.data.speakers" :key="i">
+          <div class="row row-cols-3 paddingGrid" >
+            <div class="col-sm-4" v-for="(item,i) of this.data.speakers" :key="i">
               <div data-aos="zoom-out" class="containerSpeakers">
-                <a href="">
-                  <img  class="imageSpeakers" :src="item.imagen">
+                <a data-toggle="modal" :data-target="'#speakerData' + i">
+                  <img  class="imageSpeakers" :src="item.smallImagen">
                 </a>
                 <div class="contentSpeakers" >
                   <a href="">
-                    <h4 v-if="item.color == 'naranja'" class="nameSpeakers" style="color: #F15A22" v-html="item.nombre"></h4>
-                    <h4 v-if="item.color == 'lila'" class="nameSpeakers" style="color: #992389" v-html="item.nombre"></h4>
-                    <h4 v-if="item.color == 'rosado'" class="nameSpeakers" style="color: #ca203c" v-html="item.nombre"></h4>
-                    <h4 v-if="item.color == 'verde'" class="nameSpeakers" style="color: #c3d444" v-html="item.nombre"></h4>
+                    <h4 v-bind:style="{ color: item.color2}" class="nameSpeakers" v-html="item.nombre"></h4>
                   </a>
                   <label  class="subititleSpeakers">{{item.cargo}}</label> <br>
-                  <label v-if="item.color == 'naranja'" class="titleSpeakers" style="background: #F15A22">{{item.tema}}</label>
-                  <label v-if="item.color == 'lila'" class="titleSpeakers" style="background: #992389">{{item.tema}}</label>
-                  <label v-if="item.color == 'rosado'" class="titleSpeakers" style="background: #ca203c">{{item.tema}}</label>
-                  <label v-if="item.color == 'verde'"  class="titleSpeakers" style="background: #c3d444">{{item.tema}}</label>
+                  <label v-bind:style="{ background: item.color2}"  class="titleSpeakers">{{item.tema}}</label>
                 </div>
               </div>
             </div>
@@ -344,7 +338,7 @@
             </div>
 
           </div>
-           <a data-aos="zoom-in" class="btnBrochure" style="top: 3px"  href="">{{this.data.btnSponsors}}</a>
+           <a data-toggle="modal" data-target="#sponsorsModal" data-aos="zoom-in" class="btnBrochure" style="top: 3px"  href="">{{this.data.btnSponsors}}</a>
           
         </article>
       </div>
@@ -394,7 +388,7 @@
                   <label style="vertical-align: top" class="footerLabel" >Mensaje:</label>
                   <textarea class="footerTextArea" v-model="mensaje" name="mensaje" ></textarea>
                 </div>
-              <button data-aos="zoom-in" class="btnEnviarFooter" @click="sendContact()">ENVIAR</button>
+              <button class="btnEnviarFooter" @click="sendContact()">ENVIAR</button>
               <div v-if="showMessage" class="mensajeFormContact">
                 <p>{{message}}</p>
               </div>
@@ -406,10 +400,10 @@
 
       </div>
     </section>
-  </div>
+  
 
 
-    <!-- Modal 11 -->
+    <!-- Modal Ticketera -->
     <div class="modal fade" id="ticketsBuy" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -425,7 +419,84 @@
         </div>
       </div>
     </div>
-
+    <!-- Modal Sponsors -->
+    <div class="modal fade" id="sponsorsModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div  class="modal-dialog modal-xl" role="document">
+        <div class="modal-content" style="background: url(img/fondoModalSponsors.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" style="border: none;box-shadow: none;" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-sm-3 d-none d-sm-block" style="padding: 0">
+                <img style="width: 100%; padding: 30px;" src="img/logoExmaSponsor.png">
+              </div>
+              <div class="col-sm-9" style="text-align: right;">
+                <h1 class="modalSponsorTitle">Tu empresa puede ser parte del futuro</h1>
+                <p class="modalSponsorDescription">El futuro está en las manos de aquellos que están dispuestos al cambio y EXMA 2020 será el evento que cambiará todo. Tu lugar está con nosotros.<br> <br>Déjanos tus datos y nos contactaremos en un click.</p>
+                <div style="margin-top: 50px">
+                  <div style="width: 100%; margin: 10px 0;">
+                    <label class="footerLabel">Nombre:</label>
+                    <input class="footerInput" type="text" v-model="nombreSponsor" name="nombre">
+                  </div>
+                  <div style="width: 100%; margin: 10px 0;">
+                    <label class="footerLabel">Teléfono:</label>
+                    <input class="footerInput" type="text" v-model="telefonoSponsor" name="telefono">
+                  </div>
+                  <div style="width: 100%; margin: 10px 0;">
+                    <label class="footerLabel">Email:</label>
+                    <input class="footerInput" type="text" v-model="emailSponsor" name="email">
+                  </div>
+                  <div style="width: 100%; margin: 10px 0;">
+                    <label class="footerLabel">Empresa:</label>
+                    <input class="footerInput" type="text" v-model="empresaSponsor" name="empresa">
+                  </div>
+                </div>
+                
+                
+              <button data-aos="zoom-in" class="btnEnviarSponsors" @click="sendSponsors()">QUIERO SER PARTE DEL FUTURO</button>
+              <div v-if="showMessageSponsor" class="mensajeFormContact">
+                <p>{{message}}</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+   
+    <!-- Modal Speakers -->
+    <div v-for="(item,i) of this.data.speakers" :key="i" class="modal fade" :id="'speakerData' + i"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" style="border: none;box-shadow: none;" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row" v-bind:style="{ background: item.color2, margin: 0 }">
+              <div class="col-sm-6" style="padding: 0">
+                <img style="width: 100%" :src="item.imagen">
+              </div>
+              <div class="col-sm-6">
+                <div class="containerSpeakerModal" data-aos="fade-down-left">
+                  <h4 class="nameSpeakerModal" v-html="item.nombre"></h4>
+                  <label class="subititleSpeakerModal">{{item.cargo}}</label>
+                  <h5 class="titleSpeakerModal" v-bind:style="{ color: item.color2}">{{item.tema}}</h5>
+                  <p class="contentSpeakerModal" v-html="item.resumen"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+</div>
     <!-- Bootstrap core JavaScript -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>

@@ -30,12 +30,14 @@
     "subtitleSpeaker":"FUTURISTA",
     "titleSpeaker":"THE ALGORITMIC LEADER",
     "contentSpeaker":"Adoiashdo aso oadh aihdais odha oshdoiashdoi asodho ohsod ahdoa d doadua sdasgod agsdgasdasogud asoudgoasgdouasg dougasodugasgd",
-    "slide6Title":"SPEAKERES",
+    "slide6Title":"SPEAKERS",
     "speakers": [
         {
-            "imagen": "img/speaker.png",
+            "id": "2",
+            "imagen": "img/speakers/nabil.jpg",
+            "smallImagen": "img/speakers/nabilS.png",
             "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
+            "nombre": "NABIL <br> MALOUILI",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
@@ -45,12 +47,15 @@
             "twitter": "",
             "linkedin": "",
             "instagram": "",
-            "color":"naranja"
+            "color":"lila",
+            "color2":"#b1268c"
         },
         {
-            "imagen": "img/speaker.png",
+            "id": "1",
+            "imagen": "img/speakers/manuela.jpg",
+            "smallImagen": "img/speakers/manuelaS.png",
             "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
+            "nombre": "MANUELA <br> VILLEGAS",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
@@ -60,12 +65,15 @@
             "twitter": "",
             "linkedin": "",
             "instagram": "",
-            "color":"lila"
+            "color":"naranja",
+            "color2":"#e92040"
         },
         {
-            "imagen": "img/speaker.png",
+            "id": "3",
+            "imagen": "img/speakers/alejandro.jpg",
+            "smallImagen": "img/speakers/alejandroS.png",
             "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
+            "nombre": "ALEJANDRO <br> BETANCOURT",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
@@ -75,12 +83,15 @@
             "twitter": "",
             "linkedin": "",
             "instagram": "",
-            "color":"rosado"
+            "color":"rosado",
+            "color2":"#19a99d"
         },
         {
-            "imagen": "img/speaker.png",
+            "id": "4",
+            "imagen": "img/speakers/pedro.jpg",
+            "smallImagen": "img/speakers/pedroS.png",
             "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
+            "nombre": "PEDRO <br> URIBE",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
@@ -90,12 +101,15 @@
             "twitter": "",
             "linkedin": "",
             "instagram": "",
-            "color":"verde"
+            "color":"verde",
+            "color2":"#3ca0de"
         },
         {
-            "imagen": "img/speaker.png",
+            "id": "5",
+            "imagen": "img/speakers/marco.jpg",
+            "smallImagen": "img/speakers/marcoS.png",
             "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
+            "nombre": "MARCO <br> OCANDO",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
@@ -105,13 +119,16 @@
             "twitter": "",
             "linkedin": "",
             "instagram": "",
-            "color":"naranja"
+            "color":"naranja",
+            "color2":"#fd8223"
         }
         ,
         {
-            "imagen": "img/speaker.png",
+            "id": "6",
+            "imagen": "img/speakers/sebastian.jpg",
+            "smallImagen": "img/speakers/sebastianS.png",
             "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
+            "nombre": "SEBATIÁN <br> LORA",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
             "video": "",
@@ -121,41 +138,9 @@
             "twitter": "",
             "linkedin": "",
             "instagram": "",
-            "color":"lila"
-        }
-        ,
-        {
-            "imagen": "img/speaker.png",
-            "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
-            "tema": "THE ALGORITMIC LEADER",
-            "resumen": "",
-            "video": "",
-            "graphRecording": "",
-            "presentacion": "",
-            "facebook": "",
-            "twitter": "",
-            "linkedin": "",
-            "instagram": "",
-            "color":"rosado"
-        }
-        ,
-        {
-            "imagen": "img/speaker.png",
-            "cargo":"FUTURISTA",
-            "nombre": "MIKE <br> WALSHK",
-            "tema": "THE ALGORITMIC LEADER",
-            "resumen": "",
-            "video": "",
-            "graphRecording": "",
-            "presentacion": "",
-            "facebook": "",
-            "twitter": "",
-            "linkedin": "",
-            "instagram": "",
-            "color":"verde"
-        }
-        
+            "color":"lila",
+            "color2":"#e9196f"
+        }    
     ],
     "sponsors": [
         {

@@ -14,7 +14,12 @@ const app = new Vue({
         next: null,
         prev: null,
         powerContentIndex:0,
-        showDecriptionPower:false
+        showDecriptionPower:false,
+        nombreSponsor: null,
+        emailSponsor: null,
+        telefonoSponsor: null,
+        empresaSponsor:null,
+        showMessageSponsor: false,
     },
     methods: {
         sendContact(){
@@ -41,6 +46,10 @@ const app = new Vue({
                         console.log(response);
                         this.showMessage = true;
                         this.message = "Su mensaje fue enviado";
+                        this.nombre = null;
+                        this.email = null;
+                        this.apellido = null;
+                        this.mensaje = null;
                       })
                       .catch(error => {
                         console.log(error);
@@ -50,29 +59,52 @@ const app = new Vue({
                   } catch (error) {
                     console.log(error);
                   }
-               /* axios
-                
-                .post('https://hooks.zapier.com/hooks/catch/6703116/odety42/'{
-                  nombre: this.nombre,
-                  apellido: this.apellido,
-                  email: this.email,
-                  mensaje: this.mensaje,
-                  web: "2020"
-                }
-                .then(res => {
-                    this.showMessage = true;
-                    this.message = "Su mensaje fue enviado";
-                })
-                .catch(function (error) {
-                  console.log(error);
-                  this.showMessage = true;
-                  this.message = error;
-                });*/
             } else {
                 this.showMessage = true;
                 this.message = "Todos los campos del formulario son obligatoiros";
             }
             
+        },
+        sendSponsors(){
+            if(this.nombreSponsor != null && this.telefonoSponsor != null && this.emailSponsor != null && this.empresaSponsor != null){
+
+                try {
+                    const data = JSON.stringify({
+                      nombre: this.nombreSponsor,
+                      email: this.empresaSponsor,
+                      telefono: this.telefonoSponsor,
+                      empresa: this.empresaSponsor
+                    });
+                    const headers = {
+                      "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+                    };
+                    let datos = axios
+                      .post(
+                        "https://hooks.zapier.com/hooks/catch/6708777/odprlgu/",
+                        data,
+                        headers
+                      )
+                      .then(response => {
+                        console.log(response);
+                        this.showMessageSponsor = true;
+                        this.message = "Sus datos fueron enviados con exito";
+                        this.nombreSponsor = null;
+                        this.telefonoSponsor = null;
+                        this.empresaSponsor = null;
+                        this.emailSponsor = null;
+                      })
+                      .catch(error => {
+                        console.log(error);
+                        this.showMessageSponsor = true;
+                        this.message = error;
+                      });
+                  } catch (error) {
+                    console.log(error);
+                  }
+            } else {
+                this.showMessageSponsor = true;
+                this.message = "Todos los campos del formulario son obligatoiros";
+            } 
         },
         nextSlide(){
             if(this.slideCount < this.data.slidesExperience.length-1){
