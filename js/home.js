@@ -45,7 +45,7 @@ const app = new Vue({
                       .then(response => {
                         console.log(response);
                         this.showMessage = true;
-                        this.message = "Su mensaje fue enviado";
+                        this.message = "¡Gracias por escribirnos, nos encanta estar en contacto!";
                         this.nombre = null;
                         this.email = null;
                         this.apellido = null;
@@ -87,7 +87,7 @@ const app = new Vue({
                       .then(response => {
                         console.log(response);
                         this.showMessageSponsor = true;
-                        this.message = "Sus datos fueron enviados con exito";
+                        this.message = "¡Estás muy cerca de ser parte del futuro!";
                         this.nombreSponsor = null;
                         this.telefonoSponsor = null;
                         this.empresaSponsor = null;

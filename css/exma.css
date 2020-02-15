@@ -298,12 +298,26 @@
     border-width: 2px;
     color: white;
     padding: 5px;
-    font-size: 18px;
+    font-size: 22px;
     margin: 10px;
     position: relative;
-    top: 20px;
+    top: -30px;
     font-family: 'Config Rounded';
 	font-weight: normal;
+    font-style: normal;
+}
+.btnSlider {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    margin: 10px;
+    position: relative;
+    top: 15px;
+    font-family: 'Config Rounded';
+    font-weight: normal;
     font-style: normal;
 }
 .titleExperienceMarketing{
@@ -411,14 +425,14 @@
 	background-size: cover !important;
 }
 .contentSpeakers{
-    padding: 0 25px;
+    padding: 0 70px;
 }
 
 .imageSpeakers{
 	width: 100%;
 }
 .nameSpeakers{
-   font-size: 20px;
+   font-size: 24px;
    margin: 0;
    font-family: 'Archer';
 	font-weight: bold;
@@ -429,10 +443,10 @@
 	font-family: 'Config Rounded ';
 	font-weight: medium;
     font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
 }
 .titleSpeakers{
-	font-size: 12px;
+	font-size: 14px;
     color: white;
     width: auto;
     padding: 2px;
@@ -562,8 +576,8 @@
 .mensajeFormContact p {
     padding: 5px;
     text-align: center;
-    background: #000000b5;
-    color: #ee5b2e;
+    background: #0000006b !important;
+    color: white;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:active {
@@ -695,17 +709,36 @@
 }
 
 .contentDataNumbers{
-    padding: 100px 100px 167px !important;
+    padding: 100px 100px 215px !important;
+}
+
+.numberDataNumber{
+    font-family: 'Roboto';
+    font-size: 80px;
+    color: white;
+}
+
+.titleDataNumber{
+    font-family: 'Archer';
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
 }
 
 .contentPowerContent{
     padding: 150px 100px 250px !important;
 }
 
-.grid-container {
+.grid-containerDatanumber {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
 }
+
+.grid-container{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
 
 .grid-item {
   padding: 20px;
@@ -731,7 +764,6 @@
     font-size: 17px;
     color: white;
     width: 80%;
-    background: #0000009e;
     border-radius: 12px;
     font-family: 'Config Rounded';
 }
@@ -840,6 +872,7 @@
         bottom: 130px;
         z-index: 1;
         padding: 5px;
+
     }
 }
 
@@ -1060,7 +1093,13 @@
         height: 80px;
     }
     .contentDataNumbers{
-        padding: 50px 100px 50px !important;
+       padding: 70px 100px 255px !important;
+    }
+    .numberDataNumber{
+        font-size: 25px;
+    }
+    .titleDataNumber{
+        font-size: 9px;
     }
     .sponsorsContent{
        padding: 100px 100px 250px !important;
@@ -1068,6 +1107,10 @@
     .contentExperienceMarketing {
         height: auto;
         font-size: 15px;
+    }
+    .grid-containerDatanumber {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
     }
     
     .grid-container {
@@ -1146,6 +1189,12 @@
     }
     .navbar-collapse {
         background: #000000b3;
+    }
+    .btnBrochure {
+        top: 3px;
+    }
+    .btnSlider{
+        font-size: 15px;
     }
 
        
@@ -1282,7 +1331,13 @@
         height: 80px;
     }
     .contentDataNumbers{
-        padding: 50px 100px 50px !important;
+       padding: 70px 100px 255px !important;
+    }
+    .numberDataNumber{
+        font-size: 25px;
+    }
+    .titleDataNumber{
+        font-size: 9px;
     }
     .sponsorsContent{
        padding: 100px 100px 250px !important;
@@ -1290,6 +1345,10 @@
     .contentExperienceMarketing {
         height: auto;
         font-size: 15px;
+    }
+    .grid-containerDatanumber {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
     }
     .grid-container {
       display: grid;
@@ -1367,6 +1426,12 @@
     }
     .navbar-collapse {
         background: #000000b3;
+    }
+    .btnBrochure {
+        top: 3px;
+    }
+    .btnSlider{
+        font-size: 15px;
     }
 
 

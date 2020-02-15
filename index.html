@@ -115,7 +115,7 @@
               <a class="nav-link js-scroll-trigger" href="#inicio">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#experience">EXPERIENCE MARKETING</a>
+              <a class="nav-link js-scroll-trigger" href="#experience">EXPERIENCE</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#speakers">SPEAKERS</a>
@@ -144,7 +144,7 @@
             <h1 class=""><img style="width: 150px" src="img/fecha.png"></h1>
             <img src="img/exma2020banner.png">
             <h1 class="">
-            <a style="border: none;background: rgb(246, 90, 24);padding: 10px;" data-aos="zoom-in" class="btnBrochure" href="#tickets">LLÉVAME AL FUTURO</a>
+            <a style="border: none;background: rgb(246, 90, 24);padding: 10px;" data-aos="zoom-in" class="btnSlider" href="#tickets">LLÉVAME AL FUTURO</a>
             <h1/>
           </div>
           
@@ -189,18 +189,6 @@
           </div>
         </article>
       </div>
-      <!--<div class="se-slope" style="margin-top:-340px">
-        <article class="se-content" style="padding: 116px 100px 177px 100px;">
-          <div style="text-align: center;">
-            <p style="line-height: 30pt;">
-              <label class="colorText1 animated pulse">{{this.data.slide3Text1}}</label> <br>
-              <label class="colorText2 animated pulse2">{{this.data.slide3Text2}}</label> <label class="colorText3 animated pulse3">{{this.data.slide3Text3}}</label> <br>
-              <label class="colorText4 animated pulse4">{{this.data.slide3Text4}}</label> <label class="colorText5 animated pulse5">{{this.data.slide3Text5}}</label>
-            </p>
-            <a data-aos="zoom-in" class="btnBrochure" style="display:none;"  href="">{{this.data.btnBrochure}}</a>
-          </div>
-        </article>
-      </div>-->
       <div id="experience" class="se-slope" style="background: url(img/fondo3x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover; padding: 60px 100px 110px 100px;">
         <article class="se-content" style="padding: 150px 10px 250px 10px;">
             <div class="row ">
@@ -230,8 +218,39 @@
       </div>
       <div class="se-slope" style="background: url(img/fondo8x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
         <article class="se-content contentDataNumbers">
-          <img style="width: 100%" src="img/dataNumbers.png">
-          
+          <div class="grid-containerDatanumber">
+            <div class="grid-item">
+              <h1 class="numberDataNumber">
+                <span class='numscroller' data-min='1' data-max='2' data-delay='5' data-increment='1'>2</span>
+              </h1>
+              <label class="titleDataNumber">DÍAS</label>
+            </div>
+            <div class="grid-item">
+              <h1 class="numberDataNumber">
+                <span class='numscroller' data-min='1' data-max='12' data-delay='5' data-increment='1'>12</span>
+              </h1>
+              <label class="titleDataNumber">SPEAKERS</label>
+            </div>
+            <div class="grid-item">
+              <h1 class="numberDataNumber">
+                <span class='numscroller' data-min='1' data-max='20' data-delay='5' data-increment='1'>20</span>+
+              </h1>
+              <label class="titleDataNumber">20 HORAS DE INSPIRACIÓN</label>
+            </div>
+            <div class="grid-item">
+              <h1 class="numberDataNumber">
+                <span class='numscroller' data-min='1' data-max='1500' data-delay='10' data-increment='5'>1500</span>
+              </h1>
+              <label class="titleDataNumber">ASISTENTES</label>
+            </div>
+            <div class="grid-item">
+              <h1 class="numberDataNumber">
+                <span class='numscroller' data-min='1' data-max='40' data-delay='5' data-increment='5'>40</span>+
+              </h1>
+              <label class="titleDataNumber">SPONSORS</label>
+            </div>
+            
+        </div>
         </article>
       </div>
       <div class="se-slope" style="background: url(img/fondo9x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover;">
@@ -239,7 +258,7 @@
           <h1 data-aos="flip-up" style="text-align: center; color: #ffffff;font-family: 'Archer';font-weight: bold;font-style: normal;">POWER CONTENT</h1>
           <div class="grid-container">
             <div class="grid-item">
-              <a @click="showIcon1()" >
+              <a @click="showIcon5()" >
                 <img data-aos="zoom-in" class="icons animated pulse" src="img/icono1.png">
                 <label class="titleIcons">Conciencia</label>
               </a>
@@ -263,7 +282,7 @@
               </a>
             </div>
             <div class="grid-item">
-              <a @click="showIcon5()">
+              <a @click="showIcon1()">
                 <img data-aos="zoom-in" class="icons animated pulse" src="img/icono5.png">
                 <label class="titleIcons">Consumidor</label>
               </a>
@@ -302,7 +321,10 @@
           <div class="row row-cols-3 paddingGrid" >
             <div class="col-sm-4" v-for="(item,i) of this.data.speakers" :key="i">
               <div data-aos="zoom-out" class="containerSpeakers">
-                <a data-toggle="modal" :data-target="'#speakerData' + i">
+                <!--<a data-toggle="modal" :data-target="'#speakerData' + i">
+                  <img  class="imageSpeakers" :src="item.smallImagen">
+                </a>-->
+                <a >
                   <img  class="imageSpeakers" :src="item.smallImagen">
                 </a>
                 <div class="contentSpeakers" >
@@ -332,13 +354,13 @@
                 </div> 
               </div>
               <div class="col-md-1 col-xs-2" style="text-align: center;">
-                <h1 data-aos="zoom-in" class="arrowsSponsors" @click="nextSponsor" @mouseover="stopCarusel()"
+                <h1  class="arrowsSponsors" @click="nextSponsor" @mouseover="stopCarusel()"
           @mouseleave="startCarusel()">></h1>
               </div>
             </div>
 
           </div>
-           <a data-toggle="modal" data-target="#sponsorsModal" data-aos="zoom-in" class="btnBrochure" style="top: 3px"  href="">{{this.data.btnSponsors}}</a>
+           <a data-toggle="modal" data-target="#sponsorsModal" data-aos="zoom-in" class="btnBrochure"   href="">{{this.data.btnSponsors}}</a>
           
         </article>
       </div>
@@ -500,6 +522,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/numscroller-1.0.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/modernizr.custom.34978.js"></script>
 
@@ -571,7 +594,21 @@ $(function() {
             return false;
         }
     });
+
+    
 });
+</script>
+<script >
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
 </script>
 
 
