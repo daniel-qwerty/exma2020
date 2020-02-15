@@ -172,7 +172,7 @@ const app = new Vue({
           clearInterval(this.next);
         },
         startCarusel() {
-          this.next = setInterval(() => this.autoNext(), 6000);
+          this.next = setInterval(() => this.autoNext(), 4000);
         },
         showIcon1(){
             this.powerContentIndex = 0;
@@ -201,7 +201,7 @@ const app = new Vue({
     mounted() { 
         axios.get("data.json").then(response => {
             this.data = (response.data);
-            this.next = setInterval(() => this.autoNext(), 6000);
+            this.next = setInterval(() => this.autoNext(), 4000);
         });
 
          

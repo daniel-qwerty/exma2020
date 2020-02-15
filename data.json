@@ -29,14 +29,14 @@
     "nameSpeaker":"MIKE <br> WALSH</h4>",
     "subtitleSpeaker":"FUTURIST. GLOBAL NOMAD. SPEAKER.",
     "titleSpeaker":"THE 21ST CENTURY BUSINESS DESIGNER",
-    "contentSpeaker":"<p>Es CEO de Tomorrow, una consultora global sobre diseño de empresas para el siglo XXI. Nómada global, futurista y autor del libro más vendido, The Algorithmic Leader, asesora a las empresas más grandes del mundo en transformación digital e innovación disruptiva en esta nueva era de inteligencia artificial.</p><p>En su trabajo con las empresas más innovadoras, Mike Walsh va enseñar las principales herramientas para apoderarte del futuro.</p>",
+    "contentSpeaker":"<p>Es CEO de Tomorrow, una consultora global sobre diseño de empresas para el siglo XXI. Nómada global, futurista y autor del libro más vendido, The Algorithmic Leader, asesora a las empresas más grandes del mundo en transformación digital e innovación disruptiva en esta nueva era de inteligencia artificial.</p><p>En su trabajo con las empresas más innovadoras, Mike Walsh ha identificado las principales claves para liderar el futuro, si quieres romper las reglas en un negocio tradicional aquí encontrarás cómo hacerlo.</p>",
     "slide6Title":"SPEAKERS",
     "speakers": [
         {
             "id": "2",
             "imagen": "img/speakers/nabil.jpg",
             "smallImagen": "img/speakers/nabilS.png",
-            "cargo":"FUTURISTA",
+            "cargo":"DHL",
             "nombre": "NABIL <br> MALOUILI",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
@@ -54,7 +54,7 @@
             "id": "1",
             "imagen": "img/speakers/manuela.jpg",
             "smallImagen": "img/speakers/manuelaS.png",
-            "cargo":"FUTURISTA",
+            "cargo":"AGENCIA SÍ SEÑOR",
             "nombre": "MANUELA <br> VILLEGAS",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
@@ -72,7 +72,7 @@
             "id": "3",
             "imagen": "img/speakers/alejandro.jpg",
             "smallImagen": "img/speakers/alejandroS.png",
-            "cargo":"FUTURISTA",
+            "cargo":"P&G",
             "nombre": "ALEJANDRO <br> BETANCOURT",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
@@ -90,7 +90,7 @@
             "id": "4",
             "imagen": "img/speakers/pedro.jpg",
             "smallImagen": "img/speakers/pedroS.png",
-            "cargo":"FUTURISTA",
+            "cargo":"MICROSOFT",
             "nombre": "PEDRO <br> URIBE",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
@@ -108,7 +108,7 @@
             "id": "5",
             "imagen": "img/speakers/marco.jpg",
             "smallImagen": "img/speakers/marcoS.png",
-            "cargo":"FUTURISTA",
+            "cargo":"COPA AIRLINES",
             "nombre": "MARCO <br> OCANDO",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
@@ -127,7 +127,7 @@
             "id": "6",
             "imagen": "img/speakers/sebastian.jpg",
             "smallImagen": "img/speakers/sebastianS.png",
-            "cargo":"FUTURISTA",
+            "cargo":"VP GLOBAL DHL SUPPLY CHAIN",
             "nombre": "SEBATIÁN <br> LORA",
             "tema": "THE ALGORITMIC LEADER",
             "resumen": "",
@@ -144,49 +144,53 @@
     ],
     "sponsors": [
         {
-            "imagen": "img/sponsors/viva.png",
-            "name":"VIVA"
+            "imagen": "img/sponsors/multicenter.png",
+            "name":"MULTICNTER"
         },
         {
             "imagen": "img/sponsors/alianza.png",
             "name":"ALIANZA"
         },
         {
-            "imagen": "img/sponsors/eventrid.png",
-            "name":"EVENTRID"
+            "imagen": "img/sponsors/rosaBetana.png",
+            "name":"ROSA BETANA"
         },
-        {
-            "imagen": "img/sponsors/extend.png",
-            "name":"EXTEND"
-        },
-        {
-            "imagen": "img/sponsors/jhonOrellana.png",
-            "name":"JHON ORELLANA"
-        },
-        {
-            "imagen": "img/sponsors/mediaVara.png",
-            "name":"MEDIA VARA"
-        },  
         {
             "imagen": "img/sponsors/montegroup.png",
             "name":"MONTE GROUP"
         },
         {
-            "imagen": "img/sponsors/multicenter.png",
-            "name":"MULTICNTER"
+            "imagen": "img/sponsors/eventrid.png",
+            "name":"EVENTRID"
         },
         {
-            "imagen": "img/sponsors/publicity.png",
-            "name":"PUBLICITY"
+            "imagen": "img/sponsors/lostajibos.png",
+            "name":"LOS TAJIBOS"
         },
         {
-            "imagen": "img/sponsors/rosaBetana.png",
-            "name":"ROSA BETANA"
+            "imagen": "img/sponsors/mediaVara.png",
+            "name":"MEDIA VARA"
+        },
+        {
+            "imagen": "img/sponsors/mediaVara.png",
+            "name":"CICLOPE ESTUDIO"
+        },
+        {
+            "imagen": "img/sponsors/mediaVara.png",
+            "name":"EL DEBER"
+        },
+        {
+            "imagen": "img/sponsors/dxt.png",
+            "name":"DXT"
+        },
+        {
+            "imagen": "img/sponsors/fexpocruz.png",
+            "name":"FEXPOCRUZ"
         },
         {
             "imagen": "img/sponsors/goWork.png",
             "name":"GOWORK"
-        }
+        }     
     ],
     "powerContent": [
         {
