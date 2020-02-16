@@ -1216,9 +1216,8 @@
     .btnSlider{
         font-size: 15px;
     }
-     .btnWhatsapp{
-        right: 100px;
-        bottom: 22px;
+    .btnWhatsapp{
+        font-size: 35px;
     }
 
        
@@ -1458,8 +1457,7 @@
         font-size: 15px;
     }
     .btnWhatsapp{
-        right: 100px;
-        bottom: 22px;
+        font-size: 35px;
     }
 
 
