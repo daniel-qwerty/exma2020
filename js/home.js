@@ -201,7 +201,7 @@ const app = new Vue({
     mounted() { 
         axios.get("data.json").then(response => {
             this.data = (response.data);
-            this.next = setInterval(() => this.autoNext(), 4000);
+            this.next = setInterval(() => this.autoNext(), 2000);
         });
 
          
