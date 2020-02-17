@@ -904,7 +904,7 @@
         position: absolute;
         right: 0;
         left: 0;
-        bottom: 80px;
+        bottom: 130px;
         z-index: 1;
         padding: 5px;
 
@@ -941,6 +941,18 @@
     }
     .containerSpeaker{
         width: 400px;
+    }
+    .timerBanner {
+        width: 700px;
+        height: 90px;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 80px;
+        z-index: 1;
+        padding: 5px;
+
     }
 }
 
