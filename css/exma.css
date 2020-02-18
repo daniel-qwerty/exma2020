@@ -191,6 +191,17 @@
 .logoBanner h1 {
     font-size: 22px;
 }
+.btnLlevameFuturo{
+    background: #b41e8e;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+}
+.btnLlevameFuturo:hover{
+    color:#330033;
+    text-decoration:none;
+}
+
 .timerBanner{
     width: 700px;
     height: 90px;
