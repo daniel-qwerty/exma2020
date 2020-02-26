@@ -196,12 +196,20 @@
             "name":"VIVA"
         },
         {
+            "imagen": "img/sponsors/unifranz.png",
+            "name":"UNIFRANZ"
+        },
+        {
             "imagen": "img/sponsors/pub.png",
             "name":"PUBLICITY STORE"
         },
         {
             "imagen": "img/sponsors/kreab.png",
             "name":"KREAB"
+        },
+        {
+            "imagen": "img/sponsors/icomm.png",
+            "name":"ICOMM"
         }       
     ],
     "powerContent": [
