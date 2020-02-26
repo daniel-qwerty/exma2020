@@ -190,7 +190,19 @@
         {
             "imagen": "img/sponsors/goWork.png",
             "name":"GOWORK"
-        }     
+        },
+        {
+            "imagen": "img/sponsors/viva.png",
+            "name":"VIVA"
+        },
+        {
+            "imagen": "img/sponsors/pub.png",
+            "name":"PUBLICITY STORE"
+        },
+        {
+            "imagen": "img/sponsors/kreab.png",
+            "name":"KREAB"
+        }       
     ],
     "powerContent": [
         {
