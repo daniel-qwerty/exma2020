@@ -554,7 +554,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/jquery/numscroller-1.0.js"></script>
+   
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/modernizr.custom.34978.js"></script>
 
@@ -617,29 +617,27 @@
 <script>
 $(function() {
   var currentUrl = window.location.href;
-  console.log(currentUrl.substr(31,8));
-  if(currentUrl.substr(20,8) === '#tickets'){
-     console.log('hola'); 
-     var target2 = $(this.hash);
-     console.log(target2);
-     $('html,body').animate({
-                  scrollTop: 5750
-              }, 1000);
-              return false;
+  console.log(currentUrl.substr(20,8));
+  if(currentUrl.substr(31,8) === '#tickets'){
+   console.log('hola'); 
+   var target2 = $(this.hash);
+   console.log($('#tickets').offset());
+  $("html, body").animate({ scrollTop: $('#tickets').offset().top+500 }, 1000);
+            return false;
+
   }
+    $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+        var target = $(this.hash);
 
-  $('a[href*=\\#]:not([href=\\#])').on('click', function() {
-      var target = $(this.hash);
-
-      target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-      console.log(target);
-      if (target.length) {
-          $('html,body').animate({
-              scrollTop: target.offset().top
-          }, 1000);
-          return false;
-      }
-  });
+        target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+        console.log(target);
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    });
 
     
 });
