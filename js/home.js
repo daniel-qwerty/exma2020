@@ -20,6 +20,7 @@ const app = new Vue({
         telefonoSponsor: null,
         empresaSponsor:null,
         showMessageSponsor: false,
+        menuResponsive: false
     },
     methods: {
         sendContact(){
@@ -196,6 +197,15 @@ const app = new Vue({
         },
         closeDescription(){
             this.showDecriptionPower = false;
+        },
+
+        showMenuResponsive(){
+          if(this.menuResponsive){
+            this.menuResponsive = false;
+          } else {
+            this.menuResponsive = true;
+          }
+          
         }
     },
     mounted() { 

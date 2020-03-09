@@ -893,6 +893,37 @@
     font-style: normal;
 }
 
+.menuRes{
+    background: #000000bd;
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    z-index: 900000;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 100px;
+}
+
+.navbar-nav .nav-item-res .nav-link-res{
+    color: white !important;
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-item-res .nav-link-res:hover {
+    color: #e9196f !important;
+    font-weight: bold !important;
+    text-decoration: none;
+}
+
+.nav-item-res{
+    margin: 5px;
+}
+
 
 
 
