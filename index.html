@@ -618,7 +618,7 @@
 $(function() {
   var currentUrl = window.location.href;
   console.log(currentUrl.substr(20,8));
-  if(currentUrl.substr(31,8) === '#tickets'){
+  if(currentUrl.substr(20,8) === '#tickets'){
    console.log('hola'); 
    var target2 = $(this.hash);
    console.log($('#tickets').offset());
