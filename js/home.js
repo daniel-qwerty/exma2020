@@ -203,6 +203,15 @@ const app = new Vue({
             this.data = (response.data);
             this.next = setInterval(() => this.autoNext(), 2000);
         });
+       /*var currentUrl = window.location.href;
+       var currentUrl=  'https://exma.com.bo/#tickets';
+       console.log(currentUrl.substr(20,8));
+       window.location.href = '#tickets';
+
+       if(currentUrl === '#tickets'){
+        window.location.href = '#tickets';
+        document.getElementById(currentUrl)()
+       }*/
 
          
           

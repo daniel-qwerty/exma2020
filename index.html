@@ -616,16 +616,30 @@
 </script>
 <script>
 $(function() {
-    $('a[href*=\\#]:not([href=\\#])').on('click', function() {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    });
+  var currentUrl = window.location.href;
+  console.log(currentUrl.substr(31,8));
+  if(currentUrl.substr(20,8) === '#tickets'){
+     console.log('hola'); 
+     var target2 = $(this.hash);
+     console.log(target2);
+     $('html,body').animate({
+                  scrollTop: 5750
+              }, 1000);
+              return false;
+  }
+
+  $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+      var target = $(this.hash);
+
+      target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+      console.log(target);
+      if (target.length) {
+          $('html,body').animate({
+              scrollTop: target.offset().top
+          }, 1000);
+          return false;
+      }
+  });
 
     
 });
@@ -640,7 +654,8 @@ $(function() {
         step: function (now) {
             $(this).text(Math.ceil(now));
         }
-    });
+    })
+  });
 </script>
 
   <!-- Facebook Pixel Code -->
