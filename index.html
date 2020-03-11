@@ -194,12 +194,15 @@
     <!-- Header -->
 
     <section id="inicio" class="se-container" style="padding: 0; background: url(img/fondo10x.jpg) center center / cover no-repeat scroll; ">
-       <header class="masthead" style="background: url(img/fondo1x.jpg);background-repeat: no-repeat;background-attachment: scroll;background-position: center center;background-size: cover; height: 85vh" >
-        <div class="video_contain">
-          <video playsinline autoplay muted loop id="myVideo">
+       <header class="masthead headerPage" >
+        <div class="overlay"></div>
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="myVideo" class="videoDesktop">
             <source src="img/video.mp4" type="video/mp4">
           </video>
-        </div>
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="myVideo" class="videoMobile">
+            <source src="img/videoRes.mp4" type="video/mp4">
+          </video>
+      
         
         <div class="">
           <div class="logoBanner" >

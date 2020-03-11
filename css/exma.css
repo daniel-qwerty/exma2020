@@ -924,24 +924,28 @@
     margin: 5px;
 }
 
-.video_contain {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-}
+
 
 #myVideo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    min-height: 50%;
-    min-width: 50%;
+ object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
+.headerPage{
+    background: url(../img/fondo1x.png);background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 85vh
+}
+
+
+
+
 
 
 
@@ -952,7 +956,7 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px)  {
 	#mainNav {
     	padding-top: 5px !important;
     	padding-bottom: 5px !important;
@@ -975,8 +979,16 @@
     }
     .logoBanner img {
         width: 600px;
-    }       
+    }
+    .videoDesktop{
+        display: block;
+    } 
+    .videoMobile{
+        display: none;
+    }      
 }
+
+
 
 /*
   ##Device = Laptops, Desktops
@@ -989,7 +1001,7 @@
     	padding-bottom: 5px !important;
 	}
     .logoBanner{
-        top:20% !important;
+        top:10% !important;
     }
     .logoBanner img {
         width: 600px;
@@ -1022,6 +1034,12 @@
         padding: 5px;
 
     }
+    .videoDesktop{
+        display: block;
+    } 
+    .videoMobile{
+        display: none;
+    } 
 }
 
 /*
@@ -1058,6 +1076,12 @@
     .se-content {
         width: auto;
     }
+    .videoDesktop{
+        display: block;
+    } 
+    .videoMobile{
+        display: none;
+    } 
     
     
 }
@@ -1076,6 +1100,12 @@
     .se-content {
         width: auto;
     }
+    .videoDesktop{
+        display: block;
+    } 
+    .videoMobile{
+        display: none;
+    } 
 
 }
 
@@ -1317,6 +1347,15 @@
     .btnWhatsapp{
         font-size: 35px;
     }
+    .videoDesktop{
+        display: none;
+    } 
+    .videoMobile{
+        display: block;
+    }
+    .headerPage{
+        background: url(../img/fondo1xMobile.png);background-repeat: no-repeat;
+    }  
 
        
 
@@ -1557,7 +1596,16 @@
     .btnWhatsapp{
         font-size: 35px;
     }
-
+    .videoDesktop{
+        display: none;
+    } 
+    .videoMobile{
+        display: block;
+    } 
+    .headerPage{
+        background: url(../img/fondo1xMobile.png);background-repeat: no-repeat;
+    }    
+}
 
 
 
