@@ -936,7 +936,7 @@
 }
 
 .headerPage{
-    background: url(../img/fondo1x.png);background-repeat: no-repeat;
+    background: url(../img/fondo1x.jpg);background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
@@ -1354,7 +1354,7 @@
         display: block;
     }
     .headerPage{
-        background: url(../img/fondo1xMobile.png);background-repeat: no-repeat;
+        background: url(../img/fondo1xMobile.jpg);background-repeat: no-repeat;
     }  
 
        
@@ -1603,7 +1603,7 @@
         display: block;
     } 
     .headerPage{
-        background: url(../img/fondo1xMobile.png);background-repeat: no-repeat;
+        background: url(../img/fondo1xMobile.jpg);background-repeat: no-repeat;
     }    
 }
 
