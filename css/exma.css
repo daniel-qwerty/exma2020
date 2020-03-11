@@ -924,6 +924,13 @@
     margin: 5px;
 }
 
+#myVideo {
+    min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
 
 
 
@@ -951,6 +958,9 @@
         padding: 5px;
 
     }
+    .logoBanner{
+        top:20% !important;
+    }
     .logoBanner img {
         width: 600px;
     }       
@@ -966,8 +976,12 @@
     	padding-top: 5px !important;
     	padding-bottom: 5px !important;
 	}
+    .logoBanner{
+        top:20% !important;
+    }
     .logoBanner img {
         width: 600px;
+        top:20% !important;
     }
      .nameSpeaker {
         font-size: 98px;
