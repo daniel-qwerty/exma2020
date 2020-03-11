@@ -924,11 +924,23 @@
     margin: 5px;
 }
 
+.video_contain {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
 #myVideo {
-    min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-height: 50%;
+    min-width: 50%;
 }
 
 
