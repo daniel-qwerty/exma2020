@@ -69,6 +69,7 @@
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Roboto';
     src: url('fonts/Roboto-BlackItalic.woff2') format('woff2'),
@@ -176,7 +177,13 @@
     font-weight: 900;
     font-style: normal;
 }
-.logoBanner{
+
+a {
+    color: #e9196f;
+
+}
+
+.logoBanner {
     position: absolute;
     top: 10%;
     bottom: 0;
@@ -188,21 +195,24 @@
 .logoBanner img {
     width: 800px;
 }
+
 .logoBanner h1 {
     font-size: 22px;
 }
-.btnLlevameFuturo{
+
+.btnLlevameFuturo {
     background: #b41e8e;
     padding: 10px;
     border: 2px solid white;
     color: white;
 }
-.btnLlevameFuturo:hover{
-    color:#330033;
-    text-decoration:none;
+
+.btnLlevameFuturo:hover {
+    color: #330033;
+    text-decoration: none;
 }
 
-.timerBanner{
+.timerBanner {
     width: 700px;
     height: 90px;
     margin: auto;
@@ -213,37 +223,43 @@
     z-index: 1;
     padding: 5px;
 }
-.timerBanner span{
-	top: -13px;
+
+.timerBanner span {
+    top: -13px;
     position: relative;
     font-size: 12px;
     font-family: 'Roboto';
-	font-weight:bold;
-	font-style:normal;
+    font-weight: bold;
+    font-style: normal;
 }
-.timerBanner h3{
+
+.timerBanner h3 {
     font-family: 'Roboto';
     font-weight: bold;
     font-style: normal;
     font-size: 40px;
 }
-.containerRobot{
-	padding: 0px 100px 280px 100px !important;
+
+.containerRobot {
+    padding: 0px 100px 280px 100px !important;
 }
-.imgRobot{
-	top: 130px;
+
+.imgRobot {
+    top: 130px;
     position: relative;
     width: 100%;
 }
-.containerContentRobot{
-	position: relative;
+
+.containerContentRobot {
+    position: relative;
     top: 150px;
     width: 450px;
     color: white;
-    
+
 }
-.containerContentRobot a{
-	border-color: white;
+
+.containerContentRobot a {
+    border-color: white;
     border-style: solid;
     border-width: 2px;
     color: white;
@@ -251,60 +267,68 @@
     font-size: 18px;
     margin: 10px;
 }
-.containerContentRobot p{
-	font-size: 17px;
-	margin: 5px 10px;
-	font-family: 'Config Rounded';
-	font-weight: normal;
+
+.containerContentRobot p {
+    font-size: 17px;
+    margin: 5px 10px;
+    font-family: 'Config Rounded';
+    font-weight: normal;
     font-style: normal;
 
 }
-.containerContentRobot p span{
-	font-size: 30px;
-	font-family: 'Config Rounded';
-	font-weight: bold;
+
+.containerContentRobot p span {
+    font-size: 30px;
+    font-family: 'Config Rounded';
+    font-weight: bold;
     font-style: normal;
 
 }
-.colorText1{
-	font-size: 50px;
+
+.colorText1 {
+    font-size: 50px;
     color: #1eb9df;
     padding: 5px;
     font-family: 'Archer';
-	font-weight: bold;
+    font-weight: bold;
     font-style: normal;
 }
-.colorText2{
-	font-size: 60px;
+
+.colorText2 {
+    font-size: 60px;
     color: #ee5b2e;
     padding: 5px;
     font-family: 'Archer';
-	font-weight: bold;
+    font-weight: bold;
     font-style: normal;
 }
-.colorText3{
-	font-size: 70px;
+
+.colorText3 {
+    font-size: 70px;
     color: #e9196f;
     padding: 5px;
     font-family: 'Archer';
-	font-weight: bold;
+    font-weight: bold;
     font-style: normal;
 }
-.colorText4{
-	font-size: 40px;
+
+.colorText4 {
+    font-size: 40px;
     color: #bdd341;
     padding: 5px;
 }
-.colorText5{
-	font-size: 40px;
+
+.colorText5 {
+    font-size: 40px;
     color: #b1268c;
     padding: 5px;
     font-weight: 100;
     font-family: 'Archer';
     font-style: normal;
 }
-.btnBrochure{
-	border-color: white;
+
+.btnBrochure {
+    border-color: white;
     border-style: solid;
     border-width: 2px;
     color: white;
@@ -314,9 +338,10 @@
     position: relative;
     top: -30px;
     font-family: 'Config Rounded';
-	font-weight: normal;
+    font-weight: normal;
     font-style: normal;
 }
+
 .btnSlider {
     border-color: white;
     border-style: solid;
@@ -331,8 +356,9 @@
     font-weight: normal;
     font-style: normal;
 }
-.titleExperienceMarketing{
-	color: #b1268c;
+
+.titleExperienceMarketing {
+    color: #b1268c;
     text-align: right;
     font-size: 50px;
     font-family: 'Archer';
@@ -341,7 +367,8 @@
     text-shadow: 2px 2px 4px #000000;
     line-height: 28pt;
 }
-.contentExperienceMarketing{
+
+.contentExperienceMarketing {
 
     color: white;
     text-align: justify;
@@ -350,19 +377,21 @@
     font-weight: normal;
     font-style: normal;
     height: 250px;
-    overflow: hidden ;
-    
+    overflow: hidden;
+
 }
-.numberExperienceMarketing{
-	font-size: 320px;
+
+.numberExperienceMarketing {
+    font-size: 320px;
     color: #b1268c;
     font-family: 'Archer';
     font-weight: 100;
     font-style: normal;
     text-shadow: 2px 2px 4px #000000;
 }
-.arrowsExperienceMarketing{
-	position: relative;
+
+.arrowsExperienceMarketing {
+    position: relative;
     top: 0%;
     font-size: 300px;
     font-weight: 100;
@@ -373,132 +402,149 @@
     cursor: pointer;
     text-shadow: 2px 2px 4px #000000;
 }
-.arrowsSponsors{
+
+.arrowsSponsors {
     position: relative;
     top: 0;
     font-size: 250px;
     font-weight: 100;
-    color:#ffffff;
+    color: #ffffff;
     font-family: 'Archer Hairline';
     font-weight: 100;
     font-style: normal;
     cursor: pointer;
-    
+
 }
-.logoSponsor{
+
+.logoSponsor {
     width: 250px;
 }
-.containerSpeaker{
-	position: relative;
+
+.containerSpeaker {
+    position: relative;
     top: 0;
     left: 50px;
     width: 600px;
     color: white;
 }
-.nameSpeaker{
-   font-size: 108px;
-   margin: 0;
-   font-family: 'Archer';
-	font-weight: bold;
+
+.nameSpeaker {
+    font-size: 108px;
+    margin: 0;
+    font-family: 'Archer';
+    font-weight: bold;
     font-style: normal;
 }
-.subititleSpeaker{
-	color: black;
-	font-family: 'Config Rounded';
-	font-weight: lighter;
+
+.subititleSpeaker {
+    color: black;
+    font-family: 'Config Rounded';
+    font-weight: lighter;
     font-style: normal;
     color: black;
     font-size: 33px;
 }
-.titleSpeaker{
-	font-size: 15px;
+
+.titleSpeaker {
+    font-size: 15px;
     background: white;
     color: #ff5a16;
     font-family: 'Config Rounded';
-	font-weight: medium;
+    font-weight: medium;
     font-style: normal;
     padding: 0 5px;
     font-size: 40px;
 }
-.contentSpeaker{
-	 margin-top: 40px;
+
+.contentSpeaker {
+    margin-top: 40px;
     font-size: 25px;
     font-family: 'Config Rounded';
-	font-weight: normal;
+    font-weight: normal;
     font-style: normal;
     margin-bottom: 40px;
 }
-.backgroundContainerSpeaker{
-	background: url(../img/fotSpeaker.jpg) !important;
-	background-repeat: no-repeat !important;
-	background-attachment: scroll !important;
-	background-position: center center !important;
-	background-size: cover !important;
+
+.backgroundContainerSpeaker {
+    background: url(../img/fotSpeaker.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
 }
-.contentSpeakers{
+
+.contentSpeakers {
     padding: 0 70px;
 }
 
-.imageSpeakers{
-	width: 100%;
+.imageSpeakers {
+    width: 100%;
 }
-.nameSpeakers{
-   font-size: 24px;
-   margin: 0;
-   font-family: 'Archer';
-	font-weight: bold;
+
+.nameSpeakers {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Archer';
+    font-weight: bold;
     font-style: normal;
 }
-.subititleSpeakers{
-	color: black;
-	font-family: 'Config Rounded ';
-	font-weight: medium;
+
+.subititleSpeakers {
+    color: black;
+    font-family: 'Config Rounded ';
+    font-weight: medium;
     font-style: normal;
     font-size: 14px;
 }
-.titleSpeakers{
-	font-size: 14px;
+
+.titleSpeakers {
+    font-size: 14px;
     color: white;
     width: auto;
     padding: 2px;
     font-family: 'Config Rounded ';
-	font-weight: medium;
+    font-weight: medium;
     font-style: normal;
     text-transform: uppercase;
 }
-.containerSpeakersSlope{
-	-webkit-transform: rotate(-2.4deg) !important;
+
+.containerSpeakersSlope {
+    -webkit-transform: rotate(-2.4deg) !important;
     -moz-transform: rotate(-2.4deg) !important;
     -o-transform: rotate(-2.4deg) !important;
     -ms-transform: rotate(-2.4deg) !important;
     transform: rotate(-2.4deg) !important;
 }
-.containerSpeakersContent{
-	-webkit-transform: rotate(2.4deg) !important;
+
+.containerSpeakersContent {
+    -webkit-transform: rotate(2.4deg) !important;
     -moz-transform: rotate(2.4deg) !important;
     -o-transform: rotate(2.4deg) !important;
     -ms-transform: rotate(2.4deg) !important;
     transform: rotate(2.4deg) !important;
     padding: 100px 0 100px 0 !important;
 }
-.footerInput{
-	height: 30px !important;
-	background: #0000006b !important;
-	border: none !important;
-	width: 80% !important;
-	font-size: 12px !important;
+
+.footerInput {
+    height: 30px !important;
+    background: #0000006b !important;
+    border: none !important;
+    width: 80% !important;
+    font-size: 12px !important;
     color: white !important;
 
 }
-.footerLabel{
-	color: white !important;
+
+.footerLabel {
+    color: white !important;
     margin-right: 25px !important;
     width: 50px !important;
     font-size: 15px !important;
     text-align: right !important;
 }
-.footerTextArea{
-	height: 220px !important;
+
+.footerTextArea {
+    height: 220px !important;
     background: #0000006b !important;
     border: none !important;
     width: 80% !important;
@@ -508,7 +554,8 @@
     font-size: 12px !important;
     color: white !important;
 }
-.btnEnviarFooter{
+
+.btnEnviarFooter {
     color: white;
     padding: 0 16px;
     font-size: 18px;
@@ -521,7 +568,8 @@
     background: transparent;
     box-shadow: none;
 }
-.btnEnviarFooter:hover{
+
+.btnEnviarFooter:hover {
     color: white;
     padding: 0 16px;
     font-size: 18px;
@@ -534,26 +582,29 @@
     background: transparent;
     box-shadow: none;
 }
-.footerCopy{
-	position: relative;
+
+.footerCopy {
+    position: relative;
     top: 60px;
     font-size: 10px;
     color: white;
     text-align: center;
     font-weight: 100;
 }
-.columnFormContact{
-	padding: 0 5px;
+
+.columnFormContact {
+    padding: 0 5px;
 }
 
-.sponsorsContent{
-   padding: 100px 100px 186px;
+.sponsorsContent {
+    padding: 100px 100px 186px;
 }
 
 
 
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #e9196f !important;
     font-weight: bold !important;
 }
@@ -572,19 +623,22 @@
 #mainNav {
     background-color: #000000b8 !important;
     height: 60px;
-    
+
 }
+
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-family: 'Config Rounded' !important;
-	font-weight: 100 !important;
+    font-family: 'Config Rounded' !important;
+    font-weight: 100 !important;
     font-style: normal !important;
 }
-.mensajeFormContact{
+
+.mensajeFormContact {
     top: 40px;
     width: 100%;
     position: relative;
 
 }
+
 .mensajeFormContact p {
     padding: 5px;
     text-align: center;
@@ -592,7 +646,8 @@
     color: white;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:active {
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:active {
     color: #e9196f !important;
     font-weight: bold !important;
 }
@@ -608,92 +663,168 @@
 
 
 .animated {
-  animation-duration: 2.5s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
 }
 
 .animatedStop3 {
-  animation-duration: 2.5s;
-  animation-fill-mode: both;
-  animation-iteration-count: 3;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
 }
+
 .animatedStop1 {
-  animation-duration: 2.5s;
-  animation-fill-mode: both;
-  animation-iteration-count: 1;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-  40% {transform: translateY(-30px);}
-  60% {transform: translateY(-15px);}
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
 }
+
 .bounce {
-  animation-name: bounce;
+    animation-name: bounce;
 }
 
 @keyframes pulse {
-  0% {transform: scale(1);}
-  50% {transform: scale(1.1);}
-  100% {transform: scale(1);}
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
+
 @keyframes pulse2 {
-  0% {transform: scale(1);}
-  50% {transform: scale(0.8);}
-  100% {transform: scale(1);}
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
+
 .pulse {
-  animation-name: pulse;
-  animation-duration: 2s;
+    animation-name: pulse;
+    animation-duration: 2s;
 }
+
 .pulse2 {
-  animation-name: pulse2;
-  animation-duration: 2.2s;
+    animation-name: pulse2;
+    animation-duration: 2.2s;
 }
+
 .pulse3 {
-  animation-name: pulse2;
-  animation-duration: 2.4s;
+    animation-name: pulse2;
+    animation-duration: 2.4s;
 }
+
 .pulse4 {
-  animation-name: pulse2;
-  animation-duration: 2.6s;
+    animation-name: pulse2;
+    animation-duration: 2.6s;
 }
+
 .pulse5 {
-  animation-name: pulse2;
-  animation-duration: 2.8s;
+    animation-name: pulse2;
+    animation-duration: 2.8s;
 }
 
 
 @keyframes shake {
-  0%, 100% {transform: translateX(0);}
-  10%, 30%, 50%, 70%, 90% {transform: translateX(-5px);}
-  20%, 40%, 60%, 80% {transform: translateX(5px);}
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-5px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(5px);
+    }
 }
+
 .shake {
-  animation-name: shake;
+    animation-name: shake;
 }
 
 @keyframes wobble {
-  0% {transform: translateX(0%);}
-  15% {transform: translateX(-25%) rotate(-2.4deg);}
-  30% {transform: translateX(20%) rotate(3deg);}
-  45% {transform: translateX(-15%) rotate(-3deg);}
-  60% {transform: translateX(10%) rotate(2.4deg);}
-  75% {transform: translateX(-5%) rotate(-1deg);}
-  100% {transform: translateX(0%);}
+    0% {
+        transform: translateX(0%);
+    }
+
+    15% {
+        transform: translateX(-25%) rotate(-2.4deg);
+    }
+
+    30% {
+        transform: translateX(20%) rotate(3deg);
+    }
+
+    45% {
+        transform: translateX(-15%) rotate(-3deg);
+    }
+
+    60% {
+        transform: translateX(10%) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-5%) rotate(-1deg);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
+
 .wobble {
-  animation-name: wobble;
+    animation-name: wobble;
 }
 
 
 .swing {
-  transform-origin: top center;
-  animation-name: swing;
+    transform-origin: top center;
+    animation-name: swing;
 }
 
-.paddingGrid{
+.paddingGrid {
     margin: 0 40px;
 }
 
@@ -706,70 +837,73 @@
     padding: 100px 100px 190px 100px !important;
 }
 
-.dot{
+.dot {
     color: white;
     margin: 0 5px;
     font-size: 20px;
 }
 
-.dot:hover{
+.dot:hover {
     color: #890397;
 }
-.containerDots{
+
+.containerDots {
     position: relative;
     top: 70px;
 }
 
-.contentDataNumbers{
+.contentDataNumbers {
     padding: 100px 100px 215px !important;
 }
 
-.numberDataNumber{
+.numberDataNumber {
     font-family: 'Roboto';
     font-size: 80px;
     color: white;
 }
 
-.titleDataNumber{
+.titleDataNumber {
     font-family: 'Archer';
     font-weight: 100;
     font-size: 20px;
     color: white;
 }
 
-.contentPowerContent{
+.contentPowerContent {
     padding: 150px 100px 250px !important;
 }
 
 .grid-containerDatanumber {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
-  grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 
 .grid-item {
-  padding: 20px;
-  font-size: 12px;
-  text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
 }
 
-.icons{
+.icons {
     width: 150px;
     display: block;
 
 }
-.titleIcons{
+
+.titleIcons {
     color: white;
     font-size: 14px;
     font-family: 'Archer';
     text-transform: uppercase;
 }
-.descriptionIcons{
+
+.descriptionIcons {
     padding: 5px;
     margin: 20px auto;
     text-align: center;
@@ -780,7 +914,7 @@
     font-family: 'Config Rounded';
 }
 
-.modalSpeakerRojo{
+.modalSpeakerRojo {
     background: red;
     margin: 0;
 }
@@ -792,6 +926,7 @@
     width: 80%;
     color: white;
 }
+
 .nameSpeakerModal {
     font-size: 70px;
     margin: 0;
@@ -799,6 +934,7 @@
     font-weight: bold;
     font-style: normal;
 }
+
 .titleSpeakerModal {
     font-size: 15px;
     background: white;
@@ -809,6 +945,7 @@
     padding: 0 5px;
     font-size: 25px;
 }
+
 .subititleSpeakerModal {
     color: black;
     font-family: 'Config Rounded';
@@ -817,6 +954,7 @@
     color: black;
     font-size: 20px;
 }
+
 .contentSpeakerModal {
     margin-top: 40px;
     font-size: 15px;
@@ -825,21 +963,24 @@
     font-style: normal;
     margin-bottom: 40px;
 }
-.modalSponsorTitle{
+
+.modalSponsorTitle {
     font-size: 54px;
     font-family: 'Archer';
     color: white;
     text-transform: uppercase;
 
 }
-.modalSponsorDescription{
+
+.modalSponsorDescription {
     font-family: 'Config Rounded';
     font-size: 24px;
     line-height: 25px;
     color: white;
     font-weight: 100;
 }
-.btnEnviarSponsors{
+
+.btnEnviarSponsors {
     color: white;
     padding: 0 15px;
     font-size: 18px;
@@ -852,14 +993,15 @@
     box-shadow: none;
     border: white solid 1px;
 }
-.btnEnviarSponsors:hover{
+
+.btnEnviarSponsors:hover {
     color: white;
     font-size: 20px;
     background: transparent;
     border: white solid 1px;
 }
 
-.btnWhatsapp{
+.btnWhatsapp {
     position: fixed;
     z-index: 1000;
     right: 22px;
@@ -874,6 +1016,7 @@
 .btnWhatsapp a {
     color: white;
 }
+
 .btnWhatsapp a: hover {
     color: white !important;
 }
@@ -893,7 +1036,7 @@
     font-style: normal;
 }
 
-.menuRes{
+.menuRes {
     background: #000000bd;
     width: 80%;
     margin: auto;
@@ -906,7 +1049,7 @@
     top: 100px;
 }
 
-.navbar-nav .nav-item-res .nav-link-res{
+.navbar-nav .nav-item-res .nav-link-res {
     color: white !important;
     font-size: 90%;
     font-weight: 400;
@@ -920,23 +1063,24 @@
     text-decoration: none;
 }
 
-.nav-item-res{
+.nav-item-res {
     margin: 5px;
 }
 
 
 
 #myVideo {
- object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.headerPage{
-    background: url(../img/fondo1x.jpg);background-repeat: no-repeat;
+.headerPage {
+    background: url(../img/fondo1x.jpg);
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
@@ -956,11 +1100,11 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px)  {
-	#mainNav {
-    	padding-top: 5px !important;
-    	padding-bottom: 5px !important;
-	}
+@media (min-width: 1281px) {
+    #mainNav {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
 
     .timerBanner {
         width: 700px;
@@ -974,18 +1118,22 @@
         padding: 5px;
 
     }
-    .logoBanner{
-        top:20% !important;
+
+    .logoBanner {
+        top: 20% !important;
     }
+
     .logoBanner img {
         width: 600px;
     }
-    .videoDesktop{
+
+    .videoDesktop {
         display: block;
-    } 
-    .videoMobile{
+    }
+
+    .videoMobile {
         display: none;
-    }      
+    }
 }
 
 
@@ -996,32 +1144,40 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-	#mainNav {
-    	padding-top: 5px !important;
-    	padding-bottom: 5px !important;
-	}
-    .logoBanner{
-        top:10% !important;
+    #mainNav {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
+
+    .logoBanner {
+        top: 10% !important;
+    }
+
     .logoBanner img {
         width: 600px;
-        top:20% !important;
+        top: 20% !important;
     }
-     .nameSpeaker {
+
+    .nameSpeaker {
         font-size: 98px;
     }
+
     .subititleSpeaker {
         font-size: 25px;
     }
+
     .titleSpeaker {
         font-size: 30px;
     }
+
     .contentSpeaker {
         font-size: 20px;
     }
-    .containerSpeaker{
+
+    .containerSpeaker {
         width: 400px;
     }
+
     .timerBanner {
         width: 700px;
         height: 90px;
@@ -1034,12 +1190,14 @@
         padding: 5px;
 
     }
-    .videoDesktop{
+
+    .videoDesktop {
         display: block;
-    } 
-    .videoMobile{
+    }
+
+    .videoMobile {
         display: none;
-    } 
+    }
 }
 
 /*
@@ -1048,42 +1206,50 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	#mainNav {
-    	padding-top: 5px !important;
-    	padding-bottom: 5px !important;
+    #mainNav {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         height: 80px;
-	}
+    }
+
     .containerContentRobot {
         position: relative;
         top: 150px;
         width: 300px;
         color: white;
     }
+
     .imgRobot {
         top: 130px;
         position: relative;
         width: 300px;
     }
+
     .containerRobot {
         padding: 0px 100px 370px 100px !important;
     }
+
     .paddingGrid {
         margin: 0 0;
     }
+
     .columnFormContact {
         padding: 0 0 0 60px;
     }
+
     .se-content {
         width: auto;
     }
-    .videoDesktop{
+
+    .videoDesktop {
         display: block;
-    } 
-    .videoMobile{
+    }
+
+    .videoMobile {
         display: none;
-    } 
-    
-    
+    }
+
+
 }
 
 /*
@@ -1092,20 +1258,23 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-	#mainNav {
-    	padding-top: 5px !important;
-    	padding-bottom: 5px !important;
+    #mainNav {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         height: 80px;
-	}
+    }
+
     .se-content {
         width: auto;
     }
-    .videoDesktop{
+
+    .videoDesktop {
         display: block;
-    } 
-    .videoMobile{
+    }
+
+    .videoMobile {
         display: none;
-    } 
+    }
 
 }
 
@@ -1114,220 +1283,277 @@
   ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
-  	.logoBanner img{
-		width: 300px;
-	}
-	.timerBanner{
-    	width: 300px;
-	}
-	.imgRobot{
-		top: 25px;
-	    position: relative;
-	    height: 300px;
-	}
-	.containerContentRobot {
-	    position: relative;
-	    top: 0px;
-	    width: 290px;
-       
-	}
-	.containerContentRobot a{
-    	font-size: 12px;
-	}
-	.containerContentRobot p{
-		font-size: 17px;
-	}
+    .logoBanner img {
+        width: 300px;
+    }
+
+    .timerBanner {
+        width: 300px;
+    }
+
+    .imgRobot {
+        top: 25px;
+        position: relative;
+        height: 300px;
+    }
+
+    .containerContentRobot {
+        position: relative;
+        top: 0px;
+        width: 290px;
+
+    }
+
+    .containerContentRobot a {
+        font-size: 12px;
+    }
+
+    .containerContentRobot p {
+        font-size: 17px;
+    }
+
     .containerRobot {
         padding: 70px 100px 365px 100px !important;
     }
-	.colorText1{
-		font-size: 30px;
-	}
-	.colorText2{
-		font-size: 40px;
-	}
-	.colorText3{
-		font-size: 50px;
-	}
-	.colorText4{
-		font-size: 25px;
-	}
-	.colorText5{
-		font-size: 25px;
-	}
-	.numberExperienceMarketing{
-		font-size: 100px;
-	}
-	.titleExperienceMarketing{
-    	font-size: 40px;
-	}
-	.arrowsExperienceMarketing{
-    	font-size: 35px;
-	}
-	.backgroundContainerSpeaker{
-		background: url(../img/fotSpeaker2.jpg) !important;
-		background-repeat: no-repeat !important;
-		background-attachment: scroll !important;
-		background-position: center center !important;
-		background-size: cover !important;
-	}
-	.containerSpeaker {
-	    position: relative;
-	    top: 0;
-	    left: 50px;
-	    width: 300px;
-	    color: white;
-	    background: #ff5e1da6;
-	    padding: 10px;
-	}
-	.titleSpeaker {
-	    font-size: 12px;
-	    background: white;
-	    color: #ff5a16;
-	    width: 250px;
-	}
-	.footerInput{
-		width: 100%
-	}
-	.footerTextArea{
-		width: 100%
-	}
-	.btnEnviarFooter {
-    	padding:0;
-	}
-	.columnFormContact{
-		padding: 0;
-	}
-	.containerContentRobot p span{
-		font-size: 20px;
-		font-family: 'Config Rounded';
-		font-weight: bold;
-	    font-style: normal;
-	}
-    .arrowsExperienceMarketing{
+
+    .colorText1 {
+        font-size: 30px;
+    }
+
+    .colorText2 {
+        font-size: 40px;
+    }
+
+    .colorText3 {
+        font-size: 50px;
+    }
+
+    .colorText4 {
+        font-size: 25px;
+    }
+
+    .colorText5 {
+        font-size: 25px;
+    }
+
+    .numberExperienceMarketing {
+        font-size: 100px;
+    }
+
+    .titleExperienceMarketing {
+        font-size: 40px;
+    }
+
+    .arrowsExperienceMarketing {
+        font-size: 35px;
+    }
+
+    .backgroundContainerSpeaker {
+        background: url(../img/fotSpeaker2.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+
+    .containerSpeaker {
+        position: relative;
+        top: 0;
+        left: 50px;
+        width: 300px;
+        color: white;
+        background: #ff5e1da6;
+        padding: 10px;
+    }
+
+    .titleSpeaker {
+        font-size: 12px;
+        background: white;
+        color: #ff5a16;
+        width: 250px;
+    }
+
+    .footerInput {
+        width: 100%
+    }
+
+    .footerTextArea {
+        width: 100%
+    }
+
+    .btnEnviarFooter {
+        padding: 0;
+    }
+
+    .columnFormContact {
+        padding: 0;
+    }
+
+    .containerContentRobot p span {
+        font-size: 20px;
+        font-family: 'Config Rounded';
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .arrowsExperienceMarketing {
         background: #b1258c;
         color: white;
         position: relative;
         top: 0px;
 
     }
-    .arrowsSponsors{
+
+    .arrowsSponsors {
         background: transparent;
         color: #ffffff;
         font-size: 45px;
     }
-    .paddingGrid{
-        margin: 0 ;
+
+    .paddingGrid {
+        margin: 0;
     }
-    .containerSpeakersContent{
+
+    .containerSpeakersContent {
         padding: 100px 40px 100px 40px !important;
     }
-    .contentSpeakers{
+
+    .contentSpeakers {
         padding: 0 70px;
     }
-    .logoSponsor{
+
+    .logoSponsor {
         width: 250px;
     }
-    .timerBanner h3{
+
+    .timerBanner h3 {
         font-size: 30px;
     }
-    .logoBanner{
+
+    .logoBanner {
         top: 20%;
     }
+
     .se-content {
         width: auto;
     }
+
     #mainNav {
         height: 80px;
     }
-    .contentDataNumbers{
-       padding: 70px 100px 255px !important;
+
+    .contentDataNumbers {
+        padding: 70px 100px 255px !important;
     }
-    .numberDataNumber{
+
+    .numberDataNumber {
         font-size: 25px;
     }
-    .titleDataNumber{
+
+    .titleDataNumber {
         font-size: 9px;
     }
-    .sponsorsContent{
-       padding: 100px 100px 250px !important;
+
+    .sponsorsContent {
+        padding: 100px 100px 250px !important;
     }
+
     .contentExperienceMarketing {
         height: auto;
         font-size: 15px;
     }
+
     .grid-containerDatanumber {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
     }
-    
+
     .grid-container {
-      display: grid;
-      grid-template-columns: auto auto auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
+
     .grid-item {
         padding: 5px;
     }
-    .icons{
+
+    .icons {
         width: 90px;
     }
-    .titleIcons{
+
+    .titleIcons {
         font-size: 10px;
     }
-    .descriptionIcons{
+
+    .descriptionIcons {
         font-size: 14px;
     }
+
     .nameSpeaker {
         font-size: 50px;
     }
+
     .subititleSpeaker {
         font-size: 20px;
     }
+
     .titleSpeaker {
         font-size: 20px;
     }
+
     .contentSpeaker {
         font-size: 18px;
     }
+
     .containerSpeaker {
         left: 30px;
     }
-    .containerSpeakersSlope{
+
+    .containerSpeakersSlope {
         -webkit-transform: rotate(-1.4deg) !important;
         -moz-transform: rotate(-1.4deg) !important;
         -o-transform: rotate(-1.4deg) !important;
         -ms-transform: rotate(-1.4deg) !important;
         transform: rotate(-1.4deg) !important;
     }
-    .containerSpeakersContent{
+
+    .containerSpeakersContent {
         -webkit-transform: rotate(1.4deg) !important;
         -moz-transform: rotate(1.4deg) !important;
         -o-transform: rotate(1.4deg) !important;
         -ms-transform: rotate(1.4deg) !important;
         transform: rotate(1.4deg) !important;
     }
+
     .modalSponsorTitle {
         font-size: 30px;
     }
+
     .modalSponsorDescription {
         font-size: 15px;
     }
+
     .btnEnviarSponsors {
         padding: 0 15px;
         top: 0px;
     }
+
     .nameSpeakerModal {
         font-size: 40px;
     }
+
     .subititleSpeakerModal {
         font-size: 12px;
     }
+
     .titleSpeakerModal {
         font-size: 17px;
     }
+
     .contentSpeakerModal {
         font-size: 12px;
     }
+
     .containerSpeakerModal {
         position: relative;
         top: 5px;
@@ -1335,248 +1561,315 @@
         width: 80%;
         color: white;
     }
+
     .navbar-collapse {
         background: #000000b3;
     }
+
     .btnBrochure {
         top: 3px;
     }
-    .btnSlider{
+
+    .btnSlider {
         font-size: 15px;
     }
-    .btnWhatsapp{
+
+    .btnWhatsapp {
         font-size: 35px;
     }
-    .videoDesktop{
+
+    .videoDesktop {
         display: none;
-    } 
-    .videoMobile{
+    }
+
+    .videoMobile {
         display: block;
     }
-    .headerPage{
-        background: url(../img/fondo1xMobile.jpg);background-repeat: no-repeat;
-    }  
 
-       
+    .headerPage {
+        background: url(../img/fondo1xMobile.jpg);
+        background-repeat: no-repeat;
+    }
+
+
 
 }
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
-	.logoBanner img{
-		width: 300px;
-	}
-	.timerBanner{
-    	width: 300px;
-	}
-	.imgRobot{
-		top: 25px;
-	    position: relative;
-	    height: 300px;
-	}
-	.containerContentRobot {
-	    position: relative;
-	    top: 0px;
-	    width: 290px;
-	}
-	.containerContentRobot a{
-    	font-size: 12px;
-	}
-	.containerContentRobot p{
-		font-size: 17px;
-	}
+    .logoBanner img {
+        width: 300px;
+    }
+
+    .timerBanner {
+        width: 300px;
+    }
+
+    .imgRobot {
+        top: 25px;
+        position: relative;
+        height: 300px;
+    }
+
+    .containerContentRobot {
+        position: relative;
+        top: 0px;
+        width: 290px;
+    }
+
+    .containerContentRobot a {
+        font-size: 12px;
+    }
+
+    .containerContentRobot p {
+        font-size: 17px;
+    }
+
     .containerRobot {
         padding: 70px 100px 365px 100px !important;
     }
-	.colorText1{
-		font-size: 30px;
-	}
-	.colorText2{
-		font-size: 40px;
-	}
-	.colorText3{
-		font-size: 50px;
-	}
-	.colorText4{
-		font-size: 25px;
-	}
-	.colorText5{
-		font-size: 25px;
-	}
-	.numberExperienceMarketing{
-		font-size: 100px;
-	}
-	.titleExperienceMarketing{
-    	font-size: 40px;
-	}
-	.arrowsExperienceMarketing{
-    	font-size: 35px;
-	}
-	.backgroundContainerSpeaker{
-		background: url(../img/fotSpeaker2.jpg) !important;
-		background-repeat: no-repeat !important;
-		background-attachment: scroll !important;
-		background-position: center center !important;
-		background-size: cover !important;
-	}
-	.containerSpeaker {
-	    position: relative ;
-	    top: 0;
-	    left: 50px;
-	    width: 300px;
-	    color: white;
-	    background: #ff5e1da6;
-	    padding: 10px;
-	}
-	.titleSpeaker {
-	    font-size: 12px;
-	    background: white;
-	    color: #ff5a16;
-	    width: 250px;
-	}
-	.footerInput{
-		width: 100% !important;
-	}
-	.footerTextArea{
-		width: 100% !important;
-	}
-	.btnEnviarFooter {
-    	padding:0;
-	}
-	.columnFormContact{
-		padding: 0;
-	}
-	.containerContentRobot p span{
-		font-size: 20px;
-		font-family: 'Config Rounded';
-		font-weight: bold;
-	    font-style: normal;
-	}
-    .arrowsExperienceMarketing{
+
+    .colorText1 {
+        font-size: 30px;
+    }
+
+    .colorText2 {
+        font-size: 40px;
+    }
+
+    .colorText3 {
+        font-size: 50px;
+    }
+
+    .colorText4 {
+        font-size: 25px;
+    }
+
+    .colorText5 {
+        font-size: 25px;
+    }
+
+    .numberExperienceMarketing {
+        font-size: 100px;
+    }
+
+    .titleExperienceMarketing {
+        font-size: 40px;
+    }
+
+    .arrowsExperienceMarketing {
+        font-size: 35px;
+    }
+
+    .backgroundContainerSpeaker {
+        background: url(../img/fotSpeaker2.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+
+    .containerSpeaker {
+        position: relative;
+        top: 0;
+        left: 50px;
+        width: 300px;
+        color: white;
+        background: #ff5e1da6;
+        padding: 10px;
+    }
+
+    .titleSpeaker {
+        font-size: 12px;
+        background: white;
+        color: #ff5a16;
+        width: 250px;
+    }
+
+    .footerInput {
+        width: 100% !important;
+    }
+
+    .footerTextArea {
+        width: 100% !important;
+    }
+
+    .btnEnviarFooter {
+        padding: 0;
+    }
+
+    .columnFormContact {
+        padding: 0;
+    }
+
+    .containerContentRobot p span {
+        font-size: 20px;
+        font-family: 'Config Rounded';
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .arrowsExperienceMarketing {
         background: #b1258c;
         color: white;
         position: relative;
         top: 0px;
 
     }
-    .arrowsSponsors{
+
+    .arrowsSponsors {
         background: transparent;
         color: #ffffff;
         font-size: 45px;
     }
-    .paddingGrid{
-        margin: 0 ;
+
+    .paddingGrid {
+        margin: 0;
     }
-    .containerSpeakersContent{
+
+    .containerSpeakersContent {
         padding: 150px 40px 150px 40px !important;
     }
-    .contentSpeakers{
+
+    .contentSpeakers {
         padding: 0 70px;
     }
-    .logoSponsor{
+
+    .logoSponsor {
         width: 250px;
     }
-    .timerBanner h3{
+
+    .timerBanner h3 {
         font-size: 30px;
     }
-    .logoBanner{
+
+    .logoBanner {
         top: 20%;
     }
+
     .se-content {
         width: auto;
     }
+
     #mainNav {
         height: 80px;
     }
-    .contentDataNumbers{
-       padding: 70px 100px 255px !important;
+
+    .contentDataNumbers {
+        padding: 70px 100px 255px !important;
     }
-    .numberDataNumber{
+
+    .numberDataNumber {
         font-size: 25px;
     }
-    .titleDataNumber{
+
+    .titleDataNumber {
         font-size: 9px;
     }
-    .sponsorsContent{
-       padding: 100px 100px 250px !important;
+
+    .sponsorsContent {
+        padding: 100px 100px 250px !important;
     }
+
     .contentExperienceMarketing {
         height: auto;
         font-size: 15px;
     }
+
     .grid-containerDatanumber {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
     }
+
     .grid-container {
-      display: grid;
-      grid-template-columns: auto auto auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
+
     .grid-item {
         padding: 5px;
     }
-    .icons{
+
+    .icons {
         width: 90px;
     }
-    .titleIcons{
+
+    .titleIcons {
         font-size: 10px;
     }
-    .descriptionIcons{
+
+    .descriptionIcons {
         font-size: 14px;
     }
+
     .nameSpeaker {
         font-size: 50px;
     }
+
     .subititleSpeaker {
         font-size: 20px;
     }
+
     .titleSpeaker {
         font-size: 20px;
     }
+
     .contentSpeaker {
         font-size: 18px;
     }
+
     .containerSpeaker {
         left: 30px;
     }
-    .containerSpeakersSlope{
+
+    .containerSpeakersSlope {
         -webkit-transform: rotate(-1.4deg) !important;
         -moz-transform: rotate(-1.4deg) !important;
         -o-transform: rotate(-1.4deg) !important;
         -ms-transform: rotate(-1.4deg) !important;
         transform: rotate(-1.4deg) !important;
     }
-    .containerSpeakersContent{
+
+    .containerSpeakersContent {
         -webkit-transform: rotate(1.4deg) !important;
         -moz-transform: rotate(1.4deg) !important;
         -o-transform: rotate(1.4deg) !important;
         -ms-transform: rotate(1.4deg) !important;
         transform: rotate(1.4deg) !important;
     }
+
     .modalSponsorTitle {
         font-size: 30px;
     }
+
     .modalSponsorDescription {
         font-size: 15px;
     }
+
     .btnEnviarSponsors {
         padding: 0 15px;
         top: 0px;
     }
+
     .nameSpeakerModal {
         font-size: 40px;
     }
+
     .subititleSpeakerModal {
         font-size: 12px;
     }
+
     .titleSpeakerModal {
         font-size: 17px;
     }
+
     .contentSpeakerModal {
         font-size: 12px;
     }
+
     .containerSpeakerModal {
         position: relative;
         top: 5px;
@@ -1584,29 +1877,33 @@
         width: 80%;
         color: white;
     }
+
     .navbar-collapse {
         background: #000000b3;
     }
+
     .btnBrochure {
         top: 3px;
     }
-    .btnSlider{
+
+    .btnSlider {
         font-size: 15px;
     }
-    .btnWhatsapp{
+
+    .btnWhatsapp {
         font-size: 35px;
     }
-    .videoDesktop{
+
+    .videoDesktop {
         display: none;
-    } 
-    .videoMobile{
+    }
+
+    .videoMobile {
         display: block;
-    } 
-    .headerPage{
-        background: url(../img/fondo1xMobile.jpg);background-repeat: no-repeat;
-    }    
+    }
+
+    .headerPage {
+        background: url(../img/fondo1xMobile.jpg);
+        background-repeat: no-repeat;
+    }
 }
-
-
-
-
