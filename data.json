@@ -214,19 +214,24 @@
     ],
     "powerContent": [
         {
-            "description":"Consumidores: The AI Generation. Interacciones, tiempo y conectividad. "
+            "title":"Consumidores:",
+            "description":" The AI Generation. Interacciones, tiempo y conectividad. "
         },
         {
-            "description":"Entornos y ciudades: Movilidad, monitoreo en tiempo real, optimización de espacios y nuevos hábitos de consumo."
+            "title":"Entornos y ciudades:",
+            "description":" Movilidad, monitoreo en tiempo real, optimización de espacios y nuevos hábitos de consumo."
         },
         {
-            "description":"Transacciones: Nuevo concepto de valor, donde la moneda física está teniendo una metamorfosis y las experiencias y relación cobran aún mayor relevancia."
+            "title":"Transacciones:",
+            "description":" Nuevo concepto de valor, donde la moneda física está teniendo una metamorfosis y las experiencias y relación cobran aún mayor relevancia."
         },
         {
-            "description":"Tecnología: Transformación digital e innovación. Cómo aprovechar la automatización, los algoritmos y tracking."
+            "title":"Tecnología:",
+            "description":" Transformación digital e innovación. Cómo aprovechar la automatización, los algoritmos y tracking."
         },
         {
-            "description":"Conciencia: Modelos de negocios sustentables y centrados en el cliente."
+            "title":"Conciencia:",
+            "description":" Modelos de negocios sustentables y centrados en el cliente."
         }
     ]
 }

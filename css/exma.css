@@ -597,9 +597,42 @@ a {
 }
 
 .sponsorsContent {
-    padding: 100px 100px 186px;
+    padding: 100px 100px 150px !important;
 }
 
+.videoNews{
+    width: 100%;
+}
+.logoNews{
+    width: 100%;
+    position: relative;
+    left: -30px;
+}
+.columNewsletter{
+    padding: 0 75px;
+}
+.borderColumNews{
+    border-right: 2px solid white;
+}
+
+.icono1:hover{
+    content: url(../img/icono1H.png) !important;
+}
+.icono1:visited{
+    content: url(../img/icono1H.png) !important;
+}
+.icono2:hover{
+    content: url(../img/icono2H.png) !important;
+}
+.icono3:hover{
+    content: url(../img/icono3H.png) !important;
+}
+.icono4:hover{
+    content: url(../img/icono4H.png) !important;
+}
+.icono5:hover{
+    content: url(../img/icono5H.png) !important;
+}
 
 
 
@@ -618,13 +651,17 @@ a {
 #mainNav .navbar-toggler {
     background-color: #ffffff !important;
     color: black;
+    
 }
 
 #mainNav {
     background-color: #000000b8 !important;
     height: 60px;
-
+    height: 60px;
+    background: rgb(102,45,145);
+    background: linear-gradient(90deg, rgba(102,45,145,1) 0%, rgba(237,30,121,0.6068802521008403) 100%);
 }
+
 
 #mainNav .navbar-nav .nav-item .nav-link {
     font-family: 'Config Rounded' !important;
@@ -834,7 +871,7 @@ a {
     -o-transform: rotate(2.4deg) !important;
     -ms-transform: rotate(2.4deg) !important;
     transform: rotate(2.4deg) !important;
-    padding: 100px 100px 190px 100px !important;
+    padding: 100px 109px 240px !important;
 }
 
 .dot {
@@ -1047,6 +1084,7 @@ a {
     margin: auto;
     text-align: center;
     top: 100px;
+    
 }
 
 .navbar-nav .nav-item-res .nav-link-res {
@@ -1079,7 +1117,7 @@ a {
 }
 
 .headerPage {
-    background: url(../img/fondo1x.jpg);
+    background: url(../img/fondo1xv2.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -1087,7 +1125,84 @@ a {
     height: 85vh
 }
 
+/**
+version 2
+*/
 
+.bannerMessage{
+    color: #4D4D4D;
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 30%;
+    right: 0;
+    margin: auto;
+    font-family: 'Archer' !important;
+    font-size:16px;
+}
+.imglogo2020v2{
+    height: 430px;
+    position: relative;
+}
+.containerRobotv2 {
+    padding: 80px 100px 280px 100px !important;
+}
+.containerContentRobotv2 {
+    position: relative;
+    top: 15px;
+    color: white;
+}
+.logoExmaPlay{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.pregunta{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Archer' !important;
+}
+
+.respuesta{
+    color: white;
+    font-size: 14px;
+    font-family: 'Config Rounded' !important;
+}
+
+.faqDescription{
+    color: white;
+    font-size: 16px;
+    font-family: 'Config Rounded' !important;
+}
+
+.faqLogo{
+    width: 80%;
+    position: relative;
+    right: 26px;
+}
+
+.cardFaq{
+    padding: 10px 50px;
+}
+
+.containerLogoExma2020{
+    width: 60%;
+    margin: auto;
+}
+
+.containerLogoExma2020 p{
+    font-size: 16px;
+}
+
+.titleFaqs{
+    text-align: right;
+    color: white;
+    font-family: Archer !important;
+}
 
 
 
@@ -1455,7 +1570,7 @@ a {
     }
 
     .sponsorsContent {
-        padding: 100px 100px 250px !important;
+        padding: 100px 100px 150px !important;
     }
 
     .contentExperienceMarketing {
@@ -1587,8 +1702,56 @@ a {
     }
 
     .headerPage {
-        background: url(../img/fondo1xMobile.jpg);
+        background: url(../img/fondo1xv2.jpg);
         background-repeat: no-repeat;
+    }
+    .imglogo2020v2{
+        display: none;
+    }
+    .containerLogoExma2020{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .containerLogoExma2020 p{
+        font-size: 12px;
+    }
+
+    .logoExmaPlay{
+        content: url(../img/logoExma2020Res.png) !important;
+    }
+    .columNewsletter {
+        padding: 10px 10px;
+    }
+    .logoNews {
+        width: 100%;
+        position: relative;
+        left: -20px;
+    }
+    .borderColumNews {
+        border-bottom: 2px solid white;
+        border-right: none;
+    }
+    .faqLogo {
+        width: 80%;
+        position: relative;
+        right: 16px;
+    }
+    .titleFaqs{
+        text-align: left;
+        color: white;
+        font-family: Archer !important;
+    }
+    .cardFaq {
+        padding: 10px 0;
+    }
+    .pregunta {
+        color: white;
+        text-decoration: none;
+        margin: 0px 5px;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: 'Archer' !important;
     }
 
 
@@ -1771,7 +1934,7 @@ a {
     }
 
     .sponsorsContent {
-        padding: 100px 100px 250px !important;
+        padding: 100px 100px 150px !important;
     }
 
     .contentExperienceMarketing {
@@ -1903,7 +2066,56 @@ a {
     }
 
     .headerPage {
-        background: url(../img/fondo1xMobile.jpg);
+        background: url(../img/fondo1xv2.jpg);
         background-repeat: no-repeat;
+    }
+    .imglogo2020v2{
+        display: none;
+    }
+    .containerLogoExma2020{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .containerLogoExma2020 p{
+        font-size: 12px;
+    }
+    .logoExmaPlay{
+        content: url(../img/logoExma2020Res.png) !important;
+    }
+    .columNewsletter {
+        padding: 10px 10px;
+    }
+    .logoNews {
+        width: 100%;
+        position: relative;
+        left: -20px;
+    }
+
+    .borderColumNews {
+        border-bottom: 2px solid white;
+        border-right: none;
+    }
+
+    .faqLogo {
+        width: 80%;
+        position: relative;
+        right: 16px;
+    }
+    .titleFaqs{
+        text-align: left;
+        color: white;
+        font-family: Archer !important;
+    }
+    .cardFaq {
+        padding: 10px 0;
+    }
+    .pregunta {
+        color: white;
+        text-decoration: none;
+        margin: 0px 5px;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: 'Archer' !important;
     }
 }
