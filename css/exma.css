@@ -1683,6 +1683,7 @@ version 2
 
     .btnBrochure {
         top: 3px;
+        font-size: 15px;
     }
 
     .btnSlider {
@@ -1752,6 +1753,9 @@ version 2
         font-weight: bold;
         font-size: 12px;
         font-family: 'Archer' !important;
+    }
+    .containerTicketssContent {
+        padding: 100px 109px 286px !important;
     }
 
 
@@ -2047,6 +2051,7 @@ version 2
 
     .btnBrochure {
         top: 3px;
+        font-size: 15px;
     }
 
     .btnSlider {
@@ -2117,5 +2122,8 @@ version 2
         font-weight: bold;
         font-size: 12px;
         font-family: 'Archer' !important;
+    }
+    .containerTicketssContent {
+        padding: 100px 109px 286px !important;
     }
 }
