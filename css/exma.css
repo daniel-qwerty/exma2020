@@ -1204,6 +1204,20 @@ version 2
     font-family: Archer !important;
 }
 
+.btnExmaPlay{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    margin: 10px;
+    position: relative;
+    top: 14px;
+    font-family: 'Config Rounded';
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -1758,6 +1772,11 @@ version 2
         padding: 100px 109px 286px !important;
     }
 
+    .btnExmaPlay{
+        font-size: 14px;
+        
+    }
+
 
 
 }
@@ -2125,5 +2144,10 @@ version 2
     }
     .containerTicketssContent {
         padding: 100px 109px 286px !important;
+    }
+
+    .btnExmaPlay{
+        font-size: 14px;
+        
     }
 }
